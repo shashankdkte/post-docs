@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "777f704c-18a9-4759-b6ea-203e10768eea",
+		"name": "Common",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33061415"
+	},
+	"item": [
+		{
+			"name": "getkey/:type",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/getkey/web"
+			},
+			"response": []
+		},
+		{
+			"name": "/zone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/common/zone"
+			},
+			"response": []
+		},
+		{
+			"name": "/pincode/:pincode",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"url": "http://127.0.0.1:5000/common/pincode/421501"
+			},
+			"response": []
+		},
+		{
+			"name": "/location",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"coordinates\":\"23.0529118,72.5586127\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/common/location"
+			},
+			"response": []
+		},
+		{
+			"name": "/state",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/common/state"
+			},
+			"response": []
+		},
+		{
+			"name": "/district/:state_id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/common/district/1"
+			},
+			"response": []
+		},
+		{
+			"name": "/contactform",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Ajay\",\r\n    \"contactNo\":\"4545454545\",\r\n    \"emailId\":\"ajay@gmail.com\",\r\n    \"subject\":\"Your\",\r\n    \"message\":\"Your message\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/common/contactform"
+			},
+			"response": []
+		},
+		{
+			"name": "/generateOtp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userType\":\"Retailer\", \r\n    \"mobileNo\":\"9831693333\", \r\n    \"emailId\":\"xdcfghjcfgvhjbknm@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/common/generateOtp"
+			},
+			"response": []
+		},
+		{
+			"name": "/verifyOtp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userType\":\"Retailer\", \r\n    \"mobileNo\":\"9831693333\", \r\n    \"emailId\":\"xdcfghjcfgvhjbknm@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/common/generateOtp"
+			},
+			"response": []
+		},
+		{
+			"name": "generateNewLead",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"uniqueId\":\"2d8c5e25-8795-4873-900d-49485da5fae5\",\r\n    \"name\":\"Bijul\", \r\n    \"dob\":\"1990-05-14\",\r\n     \"emailId\":\"bijul@gmail.com\", \r\n     \"adhar\":\"121412141214\", \r\n     \"pan\":\"1248654781\", \r\n     \"companyName\":\"Google\", \r\n     \"address\":\"Text value\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/common/generateNewLead"
+			},
+			"response": []
+		}
+	]
+}

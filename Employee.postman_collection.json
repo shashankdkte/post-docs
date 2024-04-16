@@ -1,0 +1,2466 @@
+{
+	"info": {
+		"_postman_id": "d7c47543-5ad1-42e4-a054-54d2022ee840",
+		"name": "Employee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33061415"
+	},
+	"item": [
+		{
+			"name": "/add-employee",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiZ3JxcmE1Z2ZmdyIsImlhdCI6MTcxMDkxNDY3OH0.KvoygIqMJgrYx29brDDhcrpmEn8EdZODhvTcQoFapEA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567893\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"department_id\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/add-employee"
+			},
+			"response": []
+		},
+		{
+			"name": "/search-distributor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIxMTUyZDgwMC01YmQ1LTQ4NDMtOTllNi1hNWY1YmE0ODM2OTkiLCJzZWNyZXRfa2V5IjoiNnV0MGlqY2w1bSIsImlhdCI6MTcwODQzODcwMH0.kuwVv3oafHbtJuYvu15TC_uM_SJ6bMARzV_gHus6g8s",
+						"type": "text"
+					},
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/add-employee"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee-login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIxMTUyZDgwMC01YmQ1LTQ4NDMtOTllNi1hNWY1YmE0ODM2OTkiLCJzZWNyZXRfa2V5IjoiNnV0MGlqY2w1bSIsImlhdCI6MTcwODQzODcwMH0.kuwVv3oafHbtJuYvu15TC_uM_SJ6bMARzV_gHus6g8s",
+						"type": "text"
+					},
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/add-employee"
+			},
+			"response": []
+		},
+		{
+			"name": "/my-terrtory",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoidnpmZWFkaG8ybCIsImlhdCI6MTcxMTQ0NTkxOX0.LlcrMbv2VRLe4zuOvDx1LH-YSQ8ZIBmiSAgUPMvfT-Q",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/myterritory"
+			},
+			"response": []
+		},
+		{
+			"name": "/my-sm",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoiY29ydWt6cDMyYSIsImlhdCI6MTcxMTYwNzg0NH0.lpiEKjq0D2miHn18GGWBwRCihD9TfNFidBTtmMdFFic",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/my-sm"
+			},
+			"response": []
+		},
+		{
+			"name": "/my-mapping",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJkM2RmOWI5Ny1lYzMwLTRhZDMtOThhZS01OTczZGM0Y2E5OTkiLCJzZWNyZXRfa2V5IjoibTI4a25wZ2JnZiIsImlhdCI6MTcxMTYxMjY4Nn0.2QDYblmpM3VsS8fymAuRP-dJsokkEpAtBi1ACU865ko",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/my-mapping"
+			},
+			"response": []
+		},
+		{
+			"name": "/get-merchant-details/:customer_id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoia2N4ZDl2ZmhpeSIsImlhdCI6MTcxMTYzNTc3MX0.Dq_Z0bYIbul661GavQRZRTBowzyRqHBDmiMmSrkwlRM",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/get-merchant-details/231632601"
+			},
+			"response": []
+		},
+		{
+			"name": "/get-merchant-details/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoia2N4ZDl2ZmhpeSIsImlhdCI6MTcxMTYzNTc3MX0.Dq_Z0bYIbul661GavQRZRTBowzyRqHBDmiMmSrkwlRM",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/get-merchant-details/231632601"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/view",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJkM2RmOWI5Ny1lYzMwLTRhZDMtOThhZS01OTczZGM0Y2E5OTkiLCJzZWNyZXRfa2V5IjoiMnFkbm05MGc0cyIsImlhdCI6MTcxMTYxMzY5M30.gQCfXwiNA6NOqClC3zuZch5mXPfM8Q-QAvQUyoYWPyY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/view"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/active_connections",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJkM2RmOWI5Ny1lYzMwLTRhZDMtOThhZS01OTczZGM0Y2E5OTkiLCJzZWNyZXRfa2V5IjoiMnFkbm05MGc0cyIsImlhdCI6MTcxMTYxMzY5M30.gQCfXwiNA6NOqClC3zuZch5mXPfM8Q-QAvQUyoYWPyY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/active_connections"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/new-msg",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJkM2RmOWI5Ny1lYzMwLTRhZDMtOThhZS01OTczZGM0Y2E5OTkiLCJzZWNyZXRfa2V5IjoiYnYyZXU5N2o2eSIsImlhdCI6MTcxMTY5NzU5OH0.f_yZ8ouePV5cNbODDW158fmJP5HZaqV9PwA6suYYJkg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"send_to\":\"9830299198\", \r\n    \"subject\":\"Message 2\",\r\n    \"message\":\"Second Message Sent\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/add-task"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/reply",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJkM2RmOWI5Ny1lYzMwLTRhZDMtOThhZS01OTczZGM0Y2E5OTkiLCJzZWNyZXRfa2V5IjoiYnYyZXU5N2o2eSIsImlhdCI6MTcxMTY5NzU5OH0.f_yZ8ouePV5cNbODDW158fmJP5HZaqV9PwA6suYYJkg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"send_to\":\"9830299198\", \r\n    \"subject\":\"Message 2\",\r\n    \"message\":\"Second Message Sent\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/reply"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/:message_id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJkM2RmOWI5Ny1lYzMwLTRhZDMtOThhZS01OTczZGM0Y2E5OTkiLCJzZWNyZXRfa2V5IjoiMnFkbm05MGc0cyIsImlhdCI6MTcxMTYxMzY5M30.gQCfXwiNA6NOqClC3zuZch5mXPfM8Q-QAvQUyoYWPyY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/view"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/inbox",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJkM2RmOWI5Ny1lYzMwLTRhZDMtOThhZS01OTczZGM0Y2E5OTkiLCJzZWNyZXRfa2V5IjoiMnFkbm05MGc0cyIsImlhdCI6MTcxMTYxMzY5M30.gQCfXwiNA6NOqClC3zuZch5mXPfM8Q-QAvQUyoYWPyY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/inbox"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/outbox",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJkM2RmOWI5Ny1lYzMwLTRhZDMtOThhZS01OTczZGM0Y2E5OTkiLCJzZWNyZXRfa2V5IjoiMnFkbm05MGc0cyIsImlhdCI6MTcxMTYxMzY5M30.gQCfXwiNA6NOqClC3zuZch5mXPfM8Q-QAvQUyoYWPyY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Vijay\",\r\n    \"contact_no\":\"1234567890\",\r\n    \"email_id\":\"vijay@gmail.com\",\r\n    \"zone_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/outbox"
+			},
+			"response": []
+		},
+		{
+			"name": "/add-employee Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIxMTUyZDgwMC01YmQ1LTQ4NDMtOTllNi1hNWY1YmE0ODM2OTkiLCJzZWNyZXRfa2V5IjoiNnV0MGlqY2w1bSIsImlhdCI6MTcwODQzODcwMH0.kuwVv3oafHbtJuYvu15TC_uM_SJ6bMARzV_gHus6g8s",
+						"type": "text"
+					},
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"applicationId\":\"1708441482407\",\r\n    \"joiningDate\":\"2024-02-22\",\r\n    \"managerId\":\"360024789\",\r\n    \"salary\":45000,\r\n    \"shiftsId\":\"88001\",\r\n    \"officeMobile\":\"9845984598\",\r\n    \"officeEmail\":\"office1@email.com\",\r\n    \"territory\": [\r\n        {\r\n            \"district_name\": \"Kolkata\"\r\n        },\r\n        {\r\n            \"district_name\": \"Howrah\"\r\n        }\r\n    ]\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/appoint"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee-login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9830299182\",\r\n    \"password\":\"25d55ad283aa400af464c76d713c07ad\",\r\n    \"deviceId\": \"XSRBYU7-009878\",\r\n    \"coordinates\": \"23.7158284,86.8805466\",\r\n    \"ip\": \"49.37.45.124\",\r\n    \"os\": \"android-11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee-login"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee-login-sm",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9830299199\",\r\n    \"password\":\"25d55ad283aa400af464c76d713c07ad\",\r\n    \"deviceId\": \"XSRBYU7-009878\",\r\n    \"coordinates\": \"23.7158284,86.8805466\",\r\n    \"ip\": \"49.37.45.124\",\r\n    \"os\": \"android-11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee-login"
+			},
+			"response": []
+		},
+		{
+			"name": "on-board-merchant-kyc",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIzOGJiNWQ1Ni0zMDRiLTQ3NjUtOTE4MC1iNjhhNTUyYmExMDgiLCJzZWNyZXRfa2V5Ijoid3dydTZ4OTAwdSIsImlhdCI6MTcxMDUxMDIwMn0.-5xyQK9Mec5N6qUkWB5JZdD3RgU5Tax5QolSARd-Dbw",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"application_id\": \"1708529992094\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/onboard-merchant-kyc"
+			},
+			"response": []
+		},
+		{
+			"name": "assign-territory",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIzOGJiNWQ1Ni0zMDRiLTQ3NjUtOTE4MC1iNjhhNTUyYmExMDgiLCJzZWNyZXRfa2V5Ijoid3dydTZ4OTAwdSIsImlhdCI6MTcxMDUxMDIwMn0.-5xyQK9Mec5N6qUkWB5JZdD3RgU5Tax5QolSARd-Dbw",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"application_id\": \"1709645380754\",\r\n    \"territory\": \"700101\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/assign-territory"
+			},
+			"response": []
+		},
+		{
+			"name": "search-distributor",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoib215bm9vbmpndiIsImlhdCI6MTcxMTE4MDk0N30.uWLaDV6rObew5hqE4zdAV8C9PJryYE-UoAUVi3RD1MY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile_number\":\"9869460846\",\r\n    \"aadhar_number\":\"270964374862\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/search-distributor"
+			},
+			"response": []
+		},
+		{
+			"name": "search-agent",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoic24wc2NpaWRvc2siLCJpYXQiOjE3MTExNzgzOTN9.1u8VHggdXa_q-bQsvuHhc54FO1W0L6asUUF3G3IWA0c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile_number\":\"9869460846\",\r\n    \"aadhar_number\":\"270964374862\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/search-agent"
+			},
+			"response": []
+		},
+		{
+			"name": "otp-verification",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIzOGJiNWQ1Ni0zMDRiLTQ3NjUtOTE4MC1iNjhhNTUyYmExMDgiLCJzZWNyZXRfa2V5Ijoid3dydTZ4OTAwdSIsImlhdCI6MTcxMDUxMDIwMn0.-5xyQK9Mec5N6qUkWB5JZdD3RgU5Tax5QolSARd-Dbw",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\":\"1b58e164-ee20-424d-ae62-6eccad93973d\",\r\n    \"otp\":\"917487\",\r\n    \"aadhar_number\":\"270964374862\",\r\n    \"accessKey\":\"a7c81628-04a7-4bdd-8755-4de0e91421ad\",\r\n    \"otpType\":\"adhar\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/otp-verification"
+			},
+			"response": []
+		},
+		{
+			"name": "otp-verification agent",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoic24wc2NpaWRvc2siLCJpYXQiOjE3MTExNzgzOTN9.1u8VHggdXa_q-bQsvuHhc54FO1W0L6asUUF3G3IWA0c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\":\"4b799b09-53fd-4077-b2b4-d8efdc22e742\",\r\n    \"otp\":\"945687\",\r\n    \"aadhar_number\":\"270964374862\",\r\n    \"access_key\":\"df73af2b-9336-4404-8315-11321dba4230\",\r\n    \"otpType\":\"addhar\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/otp-verification"
+			},
+			"response": []
+		},
+		{
+			"name": "distributor-onboard",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiOTUxZWx3dXBibiIsImlhdCI6MTcxMDgyNzYyMH0.3heovRjUpeNUZQ9AETQwknOj5_XuJqVpp2unNvUXekA",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\": \"96c67401-83c0-4482-8f8e-c1a738809fac\",\r\n        \"name\": \"Shashank Tularam Dhakate\",\r\n        \"dob\": \"1998-12-27\",\r\n        \"gender\": \"M\",\r\n        \"aadhar_number\": \"270964374862\",\r\n        \"combined_address\": \"M-404,phase 1,mohan Suburbia, Kohojkhuntavali, Thane, Ambarnath, Ambernath, Ambernath, Maharashtra, India, 421501\",\r\n    \"email\":\"shashank@gmail.com\",\r\n    \"entity_type\":\"Market\",\r\n    \"trade_name\":\"Match\",\r\n    \"legal_name\":\"Shashank\",\r\n    \"gst_number\":\"123456\",\r\n    \"date_of_registration\":\"2024-12-08\",\r\n    \"registration_no\":\"123456\",\r\n    \"offices_address\":\"1111\",\r\n    \"pan_number\":\"FYQPD2931C\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/distributor-onboard"
+			},
+			"response": []
+		},
+		{
+			"name": "agent-onboard",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoic24wc2NpaWRvc2siLCJpYXQiOjE3MTExNzgzOTN9.1u8VHggdXa_q-bQsvuHhc54FO1W0L6asUUF3G3IWA0c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\": \"4b799b09-53fd-4077-b2b4-d8efdc22e742\",\r\n        \"name\": \"Shashank Tularam Dhakate\",\r\n        \"dob\": \"1998-12-27\",\r\n        \"gender\": \"M\",\r\n        \"aadhar_number\": \"270964374862\",\r\n        \"residential_address\": \"M-404,phase 1,mohan Suburbia, Kohojkhuntavali, Thane, Ambarnath, Ambernath, Ambernath, Maharashtra, India, 421501\",\r\n    \"email\":\"shashank@gmail.com\",\r\n    \"entity_type\":\"Market\",\r\n    \"trade_name\":\"Match\",\r\n    \"legal_name\":\"Shashank\",\r\n    \"gst_number\":\"123456\",\r\n    \"date_of_registration\":\"2024-12-08\",\r\n    \"registration_no\":\"123456\",\r\n    \"offices_address\":\"1111\",\r\n    \"pan_number\":\"FYQPD2931A\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/agent-onboard"
+			},
+			"response": []
+		},
+		{
+			"name": "distributor-onboard Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiOTUxZWx3dXBibiIsImlhdCI6MTcxMDgyNzYyMH0.3heovRjUpeNUZQ9AETQwknOj5_XuJqVpp2unNvUXekA",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\": \"96c67401-83c0-4482-8f8e-c1a738809fac\",\r\n        \"name\": \"Shashank Tularam Dhakate\",\r\n        \"dob\": \"1998-12-27\",\r\n        \"gender\": \"M\",\r\n        \"aadhar_number\": \"270964374862\",\r\n        \"combined_address\": \"M-404,phase 1,mohan Suburbia, Kohojkhuntavali, Thane, Ambarnath, Ambernath, Ambernath, Maharashtra, India, 421501\",\r\n    \"email\":\"shashank@gmail.com\",\r\n    \"entity_type\":\"Market\",\r\n    \"trade_name\":\"Match\",\r\n    \"legal_name\":\"Shashank\",\r\n    \"gst_number\":\"123456\",\r\n    \"date_of_registration\":\"2024-12-08\",\r\n    \"registration_no\":\"123456\",\r\n    \"offices_address\":\"1111\",\r\n    \"pan_number\":\"FYQPD2931C\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/distributor-onboard"
+			},
+			"response": []
+		},
+		{
+			"name": "distributor-onboard Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIzOGJiNWQ1Ni0zMDRiLTQ3NjUtOTE4MC1iNjhhNTUyYmExMDgiLCJzZWNyZXRfa2V5Ijoid3dydTZ4OTAwdSIsImlhdCI6MTcxMDUxMDIwMn0.-5xyQK9Mec5N6qUkWB5JZdD3RgU5Tax5QolSARd-Dbw",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\":\"1b58e164-ee20-424d-ae62-6eccad93973d\",\r\n    \"otp\":\"917487\",\r\n    \"aadhar_number\":\"270964374862\",\r\n    \"accessKey\":\"a7c81628-04a7-4bdd-8755-4de0e91421ad\",\r\n    \"otpType\":\"adhar\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/otp-verification"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/onboard-distributor-kyc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIzOGJiNWQ1Ni0zMDRiLTQ3NjUtOTE4MC1iNjhhNTUyYmExMDgiLCJzZWNyZXRfa2V5Ijoid3dydTZ4OTAwdSIsImlhdCI6MTcxMDUxMDIwMn0.-5xyQK9Mec5N6qUkWB5JZdD3RgU5Tax5QolSARd-Dbw"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "application_id",
+							"value": "1709645380754",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						},
+						{
+							"key": "pan_front",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/pfo.jpg"
+						},
+						{
+							"key": "aadhar_front",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/qrcode_www.udemy.com.png"
+						},
+						{
+							"key": "aadhar_back",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/pfo.jpg"
+						},
+						{
+							"key": "board_resolution",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "registration_certificate",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/employee/onboard-distributor-kyc"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/onboard-distributor-kyc Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoieHViMnFneWRmeSIsImlhdCI6MTcxMTEyMTE4M30.lrtgMRTb30NUhIgp855WJcEgQpfpGmpzVTgRIhC5oFU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "unique_id",
+							"value": "09552364-be4c-4aaf-ac16-5519c2385349",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						},
+						{
+							"key": "pan_front",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						},
+						{
+							"key": "aadhar_front",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						},
+						{
+							"key": "aadhar_back",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						},
+						{
+							"key": "board_resolution",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "registration_certificate",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/erp/onboard-agent-kyc"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/assign-territory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoieXBjd2E3NjIwYSIsImlhdCI6MTcxMTExOTU3N30.TSNwzsIuElsZJlr4B3PpRbqwNptoKcBEMKkvq6WyxOo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\": \"801688c1-1460-4417-87c8-770c935b21ee\",\r\n    \"territory\": [\"700009\", \"700005\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/assign-territory"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/assign-territory Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoieHViMnFneWRmeSIsImlhdCI6MTcxMTEyMTE4M30.lrtgMRTb30NUhIgp855WJcEgQpfpGmpzVTgRIhC5oFU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\": \"09552364-be4c-4aaf-ac16-5519c2385349\",\r\n    \"territory\": [\"700002\", \"700001\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/assign-territory"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/assign-territory Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiZ3JxcmE1Z2ZmdyIsImlhdCI6MTcxMDkxNDY3OH0.KvoygIqMJgrYx29brDDhcrpmEn8EdZODhvTcQoFapEA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\": \"b674a442-5f03-4f53-bfd3-536d50433029\",\r\n    \"territory\": [\"700001\",\"700010\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/assign-territory"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/assign-territory Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIzOGJiNWQ1Ni0zMDRiLTQ3NjUtOTE4MC1iNjhhNTUyYmExMDgiLCJzZWNyZXRfa2V5Ijoid3dydTZ4OTAwdSIsImlhdCI6MTcxMDUxMDIwMn0.-5xyQK9Mec5N6qUkWB5JZdD3RgU5Tax5QolSARd-Dbw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"application_id\": \"1709645380754\",\r\n    \"territory\": [\"712407\", \"712406\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/dist-add-territory"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/update-profile-photo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIyZjMwN2I2NS1lNTUwLTRhNTUtODdlMi01ZTM5OGNiMjVjYmEiLCJzZWNyZXRfa2V5IjoiaGFlZnNtdHlsdyIsImlhdCI6MTcxMTAxNjkzNX0.ukj_ZEBQ4xugvgqG-ZM6JYAiScnYu5XCtDzEk2RzX8s",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "profile_photo",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						},
+						{
+							"key": "unique_id",
+							"value": "b48d2c35-10a8-4ff8-b679-7db1b73db1c2",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/employee/update-profile-photo"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/add-territory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoiZXBpcWg0d2tubSIsImlhdCI6MTcxMTA4NTkxNX0.1qXPVMRCbdw19IMS7K4QOcZGOx0kqXti6XYUyV5Lv8c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/add-territory"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/add-territory Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoiM2U5dW10MnZseiIsImlhdCI6MTcxMTEwNDUzNX0.Ljre4KzsHna7y2HgGRSvRCt1tx3pYaS7KyVACQWXOh4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\": \"bdfcc6e9-6a60-49a2-928d-80b7ab5bbf67\",\r\n    \"territory\": [\"700008\",\"700010\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/remove-territory"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/add-territory Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoiZXBpcWg0d2tubSIsImlhdCI6MTcxMTA4NTkxNX0.1qXPVMRCbdw19IMS7K4QOcZGOx0kqXti6XYUyV5Lv8c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/add-territory"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/today-attendance",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5Ijoiemc5aWlhdnRjZiIsImlhdCI6MTcxMTA5ODk2NX0.JDmImbANV8MHJVQlEwvulCxmRb0RSKe-i6MXso-v5Ns",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/today-attendance"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/today-attendance Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5Ijoiemc5aWlhdnRjZiIsImlhdCI6MTcxMTA5ODk2NX0.JDmImbANV8MHJVQlEwvulCxmRb0RSKe-i6MXso-v5Ns",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/today-attendance"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/start-work",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1NzkzMjBhMC1hOGQ0LTRhOGItODliMi1jM2Y5NjhiOWU1OTUiLCJzZWNyZXRfa2V5IjoieHMwYnk5OTdwZSIsImlhdCI6MTcxMjkwOTk1OX0.Tuv4-uj4uSJ_zaHV30UEM8UWq0iHLxhJSsZO_LKPwEs",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "deviceId",
+							"value": "XSRBYU7-009878",
+							"type": "text"
+						},
+						{
+							"key": "coordinates",
+							"value": "23.7158284,86.8805466",
+							"type": "text"
+						},
+						{
+							"key": "ip",
+							"value": "49.37.45.124",
+							"type": "text"
+						},
+						{
+							"key": "os",
+							"value": "android-11",
+							"type": "text"
+						},
+						{
+							"key": "selfie",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/employee/start-work"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/attendance-log",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5Ijoiemc5aWlhdnRjZiIsImlhdCI6MTcxMTA5ODk2NX0.JDmImbANV8MHJVQlEwvulCxmRb0RSKe-i6MXso-v5Ns",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "deviceId",
+							"value": "XSRBYU7-009878",
+							"type": "text"
+						},
+						{
+							"key": "coordinates",
+							"value": "23.7158284,86.8805466",
+							"type": "text"
+						},
+						{
+							"key": "ip",
+							"value": "49.37.45.124",
+							"type": "text"
+						},
+						{
+							"key": "os",
+							"value": "android-11",
+							"type": "text"
+						},
+						{
+							"key": "selfie",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/employee/start-work"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee//end-work",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5Ijoia25ndnNoOHZxNSIsImlhdCI6MTcxMjE0MTMwMn0.tT07rsnGHBLPJNebNTaI2SQQA-qGelCmTtI0zL5e0qw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "deviceId",
+							"value": "XSRBYU7-009878",
+							"type": "text"
+						},
+						{
+							"key": "coordinates",
+							"value": "23.7158284,86.8805466",
+							"type": "text"
+						},
+						{
+							"key": "ip",
+							"value": "49.37.45.124",
+							"type": "text"
+						},
+						{
+							"key": "os",
+							"value": "android-11",
+							"type": "text"
+						},
+						{
+							"key": "selfie",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/employee/end-work"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/search-merchant",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5IjoiNzlxa3huY3RmcCIsImlhdCI6MTcxMzE2MzMyOX0.GoGIPPKJ8SC9KUg3-bqxmH4NhemigIt5vA7y_oMhB50",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile_number\":\"9869460846\",\r\n    \"user_type\":\"merchant\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/search-merchant"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/search-merchant Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoicG95OGRmbTc4dmkiLCJpYXQiOjE3MTE0MzE2NDJ9.mmrxwK6nCkmFzGVaZuutRuvDgOHWkn7kB23-zSGGAuY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile_number\":\"9869460846\",\r\n    \"user_type\":\"merchant\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/search-merchant"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/search-package/:user-type",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoidnpmZWFkaG8ybCIsImlhdCI6MTcxMTQ0NTkxOX0.LlcrMbv2VRLe4zuOvDx1LH-YSQ8ZIBmiSAgUPMvfT-Q",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"aadhar_number\":\"270964374862\",\r\n   \"unique_id\":\"09e97699-8db5-4ec1-9040-3abbac77d4bc\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/search-package"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/csp-verification-otp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5IjoibnB4d3JyY2xtYiIsImlhdCI6MTcxMjIxMDI3OX0.PwGr_D3d_YhDhGfbhbSDeDOtzHjZVfW8wqTAuFHjBzA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"unique_id\": \"fed65cc9-2b1b-429e-8bb7-3086f93712cc\",\r\n   \"otp\":\"162220\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/csp-otp-verification"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/merchant-onboard",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5IjoiNzlxa3huY3RmcCIsImlhdCI6MTcxMzE2MzMyOX0.GoGIPPKJ8SC9KUg3-bqxmH4NhemigIt5vA7y_oMhB50",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"unique_id\": \"31dcfce2-e29c-4efb-9f40-d19a22f04c89\",\r\n    \"application_id\": 1713163609505,\r\n    \"customer_id\": \"360016283\",\r\n        \"name\": \"Shashank Tularam Dhakate\",\r\n        \"dob\": \"1998-12-27\",\r\n        \"gender\": \"M\",\r\n        \"aadhar_number\": \"270964374862\",\r\n        \"residential_address\": {\r\n            \"line\":\"M-404,phase 1,mohan Suburbia, Kohojkhuntavali\",\r\n            \"pincode\":\"421501\",\r\n            \"area\":\"Ambarnath\",\r\n            \"district\":\"Thane\",\r\n            \"state\":\"Maharashtra\"\r\n        },\r\n    \"email\":\"shashankgmail.com\",\r\n    \"entity_type\":\"Market\",\r\n    \"trade_name\":\"Match\",\r\n    \"legal_name\":\"Shashank\",\r\n    \"gst_number\":\"123456\",\r\n    \"date_of_registration\":\"2024-12-08\",\r\n    \"registration_no\":\"123456\",\r\n    \"offices_address\":\"1111\",\r\n    \"pan_number\":\"FYQPD2931C\",\r\n    \"shop_name\":\"ABC\",\r\n    \"package_id\":\"2001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/merchant-onboard"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/merchant-onboard-kyc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoib242dmo3bmF1IiwiaWF0IjoxNzExNTI0MjcxfQ.1QfMd_GQWkyxwHB1RjfBGByyNSPKk0XxAEgks8CUAps",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "unique_id",
+							"value": "09e97699-8db5-4ec1-9040-3abbac77d4bc",
+							"type": "text"
+						},
+						{
+							"key": "device_number",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "model_name",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "office_address",
+							"value": " {\"line\":\"M-404,phase 1,mohan Suburbia, Koho\",\"pincode\":\"421501\",\"area\":\"Ambarnath\",\"district\":\"Thane\",\"state\":\"Maharashtra\"}",
+							"type": "text"
+						},
+						{
+							"key": "pan_front",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						},
+						{
+							"key": "aadhar_front",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						},
+						{
+							"key": "aadhar_back",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						},
+						{
+							"key": "shop_photo",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						},
+						{
+							"key": "passport_photo",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/employee/onboard-merchant-kyc"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/get-aadhar-otp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoib242dmo3bmF1IiwiaWF0IjoxNzExNTI0MjcxfQ.1QfMd_GQWkyxwHB1RjfBGByyNSPKk0XxAEgks8CUAps",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"aadhar_number\":\"270964374862\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/get-aadhar-otp"
+			},
+			"response": []
+		},
+		{
+			"name": "employee//verify-otp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoib242dmo3bmF1IiwiaWF0IjoxNzExNTI0MjcxfQ.1QfMd_GQWkyxwHB1RjfBGByyNSPKk0XxAEgks8CUAps",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\":\"09e97699-8db5-4ec1-9040-3abbac77d4bc\",\r\n    \"otp\":\"000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/verify-otp"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/resend-otp",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoib242dmo3bmF1IiwiaWF0IjoxNzExNTI0MjcxfQ.1QfMd_GQWkyxwHB1RjfBGByyNSPKk0XxAEgks8CUAps",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/resend-otp/205097b6-5b3c-4ba9-b4a6-1b90509796ff"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/activated-services",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoib242dmo3bmF1IiwiaWF0IjoxNzExNTI0MjcxfQ.1QfMd_GQWkyxwHB1RjfBGByyNSPKk0XxAEgks8CUAps",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\":\"09e97699-8db5-4ec1-9040-3abbac77d4bc\",\r\n    \"mode_of_payment\":\"Cash\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/activated-services"
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.eko.in:25002/ekoicici/v1/user/service/activate",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "developer_key",
+						"value": "0d13fefbdd3d507c3a1485e6694d4197"
+					},
+					{
+						"key": "secret-key",
+						"value": "mMg4oz1WSE0zTb3ehosawIbAjWpAuaOPwWlG16ynJ0k="
+					},
+					{
+						"key": "secret-key-timestamp",
+						"value": "1667978242491"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "form-data",
+							"value": "service_code=43&initiator_id=9830299198&user_code=31739001&devicenumber=54SAXXC7004272&modelname=Mantra&office_address={\"line\": \"A9, VIP Park, A-9 Sadhana Appartment\",\"city\": \"north 24 parganas\",\"state\": \"West Bengal\",\"pincode\": \"700101\"}&address_as_per_proof={\"line\": \"11/1/1, Bhattacharya Para Lane\",\"pincode\":\"711104\",\"district\":\"Howrah\",\"state\":\"West Bengal\"}",
+							"type": "text"
+						},
+						{
+							"key": "pan_card",
+							"type": "file",
+							"src": "/D:/EgPaid/Offices/Company File/Director/Subhojit/PAN_page-0001.jpg"
+						},
+						{
+							"key": "aadhar_front",
+							"type": "file",
+							"src": "/D:/EgPaid/Offices/Company File/Director/Subhojit/EAadhaar_page-0001.jpg"
+						},
+						{
+							"key": "aadhar_back",
+							"type": "file",
+							"src": "/D:/EgPaid/Offices/Company File/Director/Subhojit/EAadhaar_page-0001.jpg"
+						}
+					]
+				},
+				"url": "https://api.eko.in:25002/ekoicici/v1/user/service/activate"
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.eko.in:25002/ekoicici/v1/aeps/otp",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "developer_key",
+						"value": "0d13fefbdd3d507c3a1485e6694d4197"
+					},
+					{
+						"key": "secret-key",
+						"value": "4ckSLVXvP6F1fl/QCVyIhIMy5b8/1H5//AJJ7N2drrM="
+					},
+					{
+						"key": "secret-key-timestamp",
+						"value": "1711522056522"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "initiator_id",
+							"value": "9830299198",
+							"type": "text"
+						},
+						{
+							"key": "customer_id",
+							"value": "9831693333",
+							"type": "text"
+						},
+						{
+							"key": "aadhar",
+							"value": "D/zPA3g0PZ6fHvRYfvp2IFtnglCbcYwVPIBcLaDzATdxsbZKtvRkRcfRFSNOdj2eDlsal4dWufaaPQ3UlJDuM0dRx03ixLNca0Ns2+WXZOK96WdzmIxHnO8hqWNzUuvqs+Y4wxwrcYQKQOuE/aOyJnkBGyCs5OgPhJaH45BlX6M=",
+							"type": "text"
+						},
+						{
+							"key": "user_code",
+							"value": "31739001",
+							"type": "text"
+						},
+						{
+							"key": "latlong",
+							"value": "123.0000,234.002344",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://api.eko.in:25002/ekoicici/v1/aeps/otp"
+			},
+			"response": []
+		},
+		{
+			"name": "https://staging.eko.in:25004/ekoapi/v2/aeps/otp/verify",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "developer_key",
+						"value": "0d13fefbdd3d507c3a1485e6694d4197",
+						"type": "text"
+					},
+					{
+						"key": "secret-key",
+						"value": "4ckSLVXvP6F1fl/QCVyIhIMy5b8/1H5//AJJ7N2drrM=",
+						"type": "text"
+					},
+					{
+						"key": "secret-key-timestamp",
+						"value": "1711522056522",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "initiator_id",
+							"value": "9830299198",
+							"type": "text"
+						},
+						{
+							"key": "customer_id",
+							"value": "9831693333",
+							"type": "text"
+						},
+						{
+							"key": "aadhar",
+							"value": "jtJnzxgNvajGLOLLS2LSVPItchsgYWcQrGlCX+j78ODfKu7lSXNrfVHt+NYirc5laAaKJBxdKWLZ21w7zOnhhv3PNvdxt3QXMKiWDquEnl96gHQMcR8iqGf8FBCOlcC8VFpn/Jg28+PM92EBprY+kmOF/T37ep5oGTUl7xhAjuo=",
+							"type": "text"
+						},
+						{
+							"key": "user_code",
+							"value": "31739001",
+							"type": "text"
+						},
+						{
+							"key": "otp",
+							"value": "15320001",
+							"type": "text"
+						},
+						{
+							"key": "otp_ref_id",
+							"value": "153454534320001",
+							"type": "text"
+						},
+						{
+							"key": "reference_tid",
+							"value": "112333133",
+							"type": "text"
+						},
+						{
+							"key": "latlong",
+							"value": "123.0000,234.002344",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://api.eko.in:25002/ekoicici/v1/aeps/otp/verify"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/fetch-visiting-info",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoidnQ0aTI3NTB3ZiIsImlhdCI6MTcxMTk1NTA5Mn0.FOog8a7jHLzx9bPRcayBwh5ID-W5Yh-TyK2WZHcbHAE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee_id\":\"360017027\",\r\n    \"page\":\"1\",\r\n    \"limit\":\"2\",\r\n    \"from_date\":\"2024-03-20\",\r\n    \"to_date\":\"2024-03-31\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/fetch-visiting-info"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/fetch-distributor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoidnQ0aTI3NTB3ZiIsImlhdCI6MTcxMTk1NTA5Mn0.FOog8a7jHLzx9bPRcayBwh5ID-W5Yh-TyK2WZHcbHAE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee_id\":\"360017028\",\r\n    \"page\":\"1\",\r\n    \"limit\":\"2\",\r\n    \"from_date\":\"2024-03-20\",\r\n    \"to_date\":\"2024-03-31\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/fetch-distributor"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/fetch-merchant",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoidnQ0aTI3NTB3ZiIsImlhdCI6MTcxMTk1NTA5Mn0.FOog8a7jHLzx9bPRcayBwh5ID-W5Yh-TyK2WZHcbHAE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee_id\":\"360017029\",\r\n    \"page\":\"1\",\r\n    \"limit\":\"2\",\r\n    \"from_date\":\"2024-03-20\",\r\n    \"to_date\":\"2024-04-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/fetch-merchant"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/fetch-csp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoidnQ0aTI3NTB3ZiIsImlhdCI6MTcxMTk1NTA5Mn0.FOog8a7jHLzx9bPRcayBwh5ID-W5Yh-TyK2WZHcbHAE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee_id\":\"360017030\",\r\n    \"page\":\"1\",\r\n    \"limit\":\"2\",\r\n    \"from_date\":\"2024-03-20\",\r\n    \"to_date\":\"2024-04-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/fetch-csp"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/fetch-csp Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoidnQ0aTI3NTB3ZiIsImlhdCI6MTcxMTk1NTA5Mn0.FOog8a7jHLzx9bPRcayBwh5ID-W5Yh-TyK2WZHcbHAE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee_id\":\"360017030\",\r\n    \"page\":\"1\",\r\n    \"limit\":\"2\",\r\n    \"from_date\":\"2024-03-20\",\r\n    \"to_date\":\"2024-04-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/fetch-csp"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/csp-details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoidnQ0aTI3NTB3ZiIsImlhdCI6MTcxMTk1NTA5Mn0.FOog8a7jHLzx9bPRcayBwh5ID-W5Yh-TyK2WZHcbHAE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee_id\":\"360017030\",\r\n    \"page\":\"1\",\r\n    \"limit\":\"2\",\r\n    \"from_date\":\"2024-03-20\",\r\n    \"to_date\":\"2024-04-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/csp-details/360078103"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/distributor-details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5IjoicDRrNmc4NmE4bCIsImlhdCI6MTcxMjAzNTIwOX0.EmxDEUsjetNkYdQstm986u3mPFq-hB2mueKrKnHbGGg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/distributor-details/36001234"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/fetch-offer-letter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5IjoidnQ0aTI3NTB3ZiIsImlhdCI6MTcxMTk1NTA5Mn0.FOog8a7jHLzx9bPRcayBwh5ID-W5Yh-TyK2WZHcbHAE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee_id\":\"360017030\",\r\n    \"page\":\"1\",\r\n    \"limit\":\"2\",\r\n    \"from_date\":\"2024-03-20\",\r\n    \"to_date\":\"2024-04-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/distributor-details/36001234"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/fetch_distributor",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1NzkzMjBhMC1hOGQ0LTRhOGItODliMi1jM2Y5NjhiOWU1OTUiLCJzZWNyZXRfa2V5IjoiOGNld3h4ejR5emgiLCJpYXQiOjE3MTIzMjM4Mjh9.tqRXQdP5CL2rGYMeNsiMQ8CNn_J4FFKsc5p6PuZz7IE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee_id\":\"360077660\",\r\n    \"page\":\"1\",\r\n    \"limit\":\"2\",\r\n    \"from_date\":\"2024-03-20\",\r\n    \"to_date\":\"2024-04-05\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/fetch_distributor"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/set-my-salary-account",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5IjoieW1paWNmbGd3aCIsImlhdCI6MTcxMjA0NzEzM30.txetn1Js0Dit1Tev4Ghmg58vaZppLxQ6awIeChoLY4U",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bank_name\":\"Zero\",\r\n    \"ifsc_code\":\"IFSCE\",\r\n    \"acc_no\":\"1234567890\",\r\n    \"ac_holder_name\":\"Amit Shir\",\r\n    \"mobile\":\"9898989898\",\r\n    \"branch\":\"Alrog\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/set-my-salary-account"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/de-register-account'",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5IjoieW1paWNmbGd3aCIsImlhdCI6MTcxMjA0NzEzM30.txetn1Js0Dit1Tev4Ghmg58vaZppLxQ6awIeChoLY4U",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"beneficiary_id\":\"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/de-register-account"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/change-password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5IjoieW1paWNmbGd3aCIsImlhdCI6MTcxMjA0NzEzM30.txetn1Js0Dit1Tev4Ghmg58vaZppLxQ6awIeChoLY4U",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"beneficiary_id\":\"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/de-register-account"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/fetch-my-account",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5IjoieW1paWNmbGd3aCIsImlhdCI6MTcxMjA0NzEzM30.txetn1Js0Dit1Tev4Ghmg58vaZppLxQ6awIeChoLY4U",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bank_name\":\"Zero\",\r\n    \"ifsc_code\":\"IFSCE\",\r\n    \"acc_no\":\"1234567890\",\r\n    \"ac_holder_name\":\"Amit Shir\",\r\n    \"mobile\":\"9898989898\",\r\n    \"branch\":\"Alrog\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/fetch-my-account"
+			},
+			"response": []
+		},
+		{
+			"name": "https://staging.eko.in:25004/ekoapi/v2/aeps/kyc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "developer_key",
+						"value": "becbbce45f79c6f5109f848acd540567"
+					},
+					{
+						"key": "secret-key",
+						"value": "MC6dKW278tBef+AuqL/5rW2K3WgOegF0ZHLW/FriZQw="
+					},
+					{
+						"key": "secret-key-timestamp",
+						"value": "1516705204593"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"initiator_id\": \"9962981729\",\n    \"user_code\": \"20810200\",\n    \"customer_id\": \"8870778821\",\n    \"client_ref_id\": \"202105311125123456\",\n    \"latlong\":\"123.0000,234.002344\",\n    \"reference_tid\":\"112333133\",\n    \"otp_ref_id\":\"153454534320001\",\n    \"bank_code\": \"HDFC\",\n    \"ekyc_flag\": \"1\",\n    \"aadhar\": \"kqOABPDaehz9OhY8absRoeGpyrhOHBjhYuB7t9EAhJ5n27BWVIpDZyJ+XdmJTBTaDjiZEtzSaqRTZVoY9JZa+KVXW5znL06TMpU+KxeBQk6l7oy7bUA1LNmM3Cc8q1JKH9x87qwN+XgmhdM71xyMhwh3Na4CTwFgjNvk8Mf7Vc0=\",\n    \"piddata\": \"<PidData><Data type=X>MjAyMS0xMi0wNlQwNjo0ODoyM51MswAVy/PSZSqgXRudRMXTP356NsUJ4q4qItIZDjYZfOD4zwDpqlKT4aU927NvMJm6+IxgTTZEFngZ0TY+ibqUeQQiB7JEwj+8xeeO+7Y+G4yJmL7FjqNfQG7O/AgMP8AXWFS522iUeGmqkyf7InpXIj7VCiKlNDu+QNu+donxOQ6hRlNJ5J0kc082Fct4hvEr4iFVL9UrAx1+kR8yDbLAISxc+37RI7cxn577uNsazb/jy7O+tTk9zE6Ia3uPY0uqKfMNqNhSTomHMeJo5S0wuOW7uyRYrvz8Q4hUlCuqsup0ZmKA5su1F7HU60q6DHkO0eH+mk8Q/gA8ymaEHeBadkd+i/8tTZnxDyp/gw+z3vT+MPZNLKT4WAE5w2nhOoOOS+F9NPpJ2mn+FqwkRQ7VnEv09g0/bTyAZHCvmhUAy/NHYVYEPaycRpoSIzGuA3REoX++HaOetubgBx9vVVIl5ZKAR4hlwzuGJbcFlyJh6uxjQIK1bJh/jPJH/m+WyJpZwc99IArg9hnBkUFTO42ZeaHXj7+4BNDahs6vFtoquJGFXHYkZUZ866itGA6Dh8iJCjIjd8f6IEah1U+SKX0mkAzh4IM91lw6sIeNpykMwk99FTDJ33vkW+ao1mf/LK8yWV3hisEGqQtCAhn3S71lpf/pJk4TOVLIJKwqnlcsin6mWcLr3Ve8xkWvJW8dRVfZ+KbQTpdOU4oQs3iv4jl0ORbuJJhVC2IEOGpUfpQyS8OO0x8D7RTvl+L3FmtKIXNZ7qlfkYdxKnH3a0QSvFY8KFpxOhUKcQXqIWU/Yuhtldgjb6D2Ys2QvgR99kRhDF7449fbqkQnnNF8uIGX3MIailsw/JFcTiko22s6in6gzPuv7AoPl1XIfDURnvQQnxlGb3MArO2rD48SVmNpwYGBnGTTyV1OYl9EbrJ1NPVcoXFCt6tcDDXwnhB09iJK7PWmKuIe5wP8dGWK/kgdYuEYRmsso+niYg2zUwdt41JGFPVJR0eCwNCOcmQ2uocPGmukB3h0h6dR1mMCTYBPUyNIxQznMxGAj72N0yHXwCS5FR6Qih8sYTDA/x1OOnuANK/m7CuCJ6H+tv48PU6vubtQAfxKCXQMiUZp0qbc</Data><DeviceInfo dc=79bfab62-5fd1-4ea1-bf5c-00cc714ae571 dpId=MANTRA.MSIPL mc=MIIEGjCCAwKgAwIBAgIGAX0iDKcNMA0GCSqGSIb3DQEBCwUAMIHqMSowKAYDVQQDEyFEUyBNYW50cmEgU29mdGVjaCBJbmRpYSBQdnQgTHRkIDcxQzBBBgNVBDMTOkIgMjAzIFNoYXBhdGggSGV4YSBvcHBvc2l0ZSBHdWphcmF0IEhpZ2ggQ291cnQgUyBHIEhpZ2h3YXkxEjAQBgNVBAkTCUFobWVkYWJhZDEQMA4GA1UECBMHR3VqYXJhdDEdMBsGA1UECxMUVGVjaG5pY2FsIERlcGFydG1lbnQxJTAjBgNVBAoTHE1hbnRyYSBTb2Z0ZWNoIEluZGlhIFB2dCBMdGQxCzAJBgNVBAYTAklOMB4XDTIxMTEyNTEyMjEzNVoXDTIxMTIxNTA1MjMxMlowgbAxJTAjBgNVBAMTHE1hbnRyYSBTb2Z0ZWNoIEluZGlhIFB2dCBMdGQxHjAcBgNVBAsTFUJpb21ldHJpYyBNYW51ZmFjdHVyZTEOMAwGA1UEChMFTVNJUEwxEjAQBgNVBAcTCUFITUVEQUJBRDEQMA4GA1UECBMHR1VKQVJBVDELMAkGA1UEBhMCSU4xJDAiBgkqhkiG9w0BCQEWFXN1cHBvcnRAbWFudHJhdGVjLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALwP8kOTVlcHl1sOaXo3e1DLJJMRdrfrVOsAsgkrZQNnppVB8c9hY0OPP9ncWNl7SMobrrA6k2lSI0RDd1/4vd11ZUlic/IaHkNJQ6XJHE+Cwl8r2zVlAIO/cyibm7oPZRuf6TFzwrxltxuRL9J81lT/bm53injV8Six7Zg0pYqoJ1kwXqxF3ql+T3SCDp9zUfohwC60X3lFnqxOLgrIH430exaSsRl1UjnaDbU71ihme1yXDeVkKaQNIlTXbj1RJNXeHJpJMEpDyld54oHTmvSIsZip/QmT8rzUHcRjuois71J4ZLV836AyncYBvWqfdr4ETJ3DpSIA1gLw8w8lpw8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAG+TPUnji6Ziyge9bIr9fEQ/4rnB2JaJXrnUxkuL3WG/vpCHBwWuSw67nHo4CzQx7XUgrA8sWZPnL1JFViWaFN1kKy/4veUtuMF12gBDwAs9egUDqb1jijcg7V9gv6aegftq0cXH6mU6qhUCtDm8Q5jMBn2v3FpQBXcTNZa4jWUDy2TkrKwssMlBFB3Jz+k2rMe1jsFc0ZoFyCmAqU7Vb80tRO0/RC4zjmO3YQXpUYjxd6frh3LRSl6626P6Qpf/szX4bpZp3s4Kuf1J/M7wF2/pcQfcoypXPv3iDlaqOU3VbjOgNCj3OHmJjabmin0mFbwN08pFNthFGvv8Xxe6Hkw== mi=MFS100 rdsId=MANTRA.AND.001 rdsVer=1.0.5> <additional_info>\\n\"\n}"
+				},
+				"url": "https://staging.eko.in:25004/ekoapi/v2/aeps/kyc"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/attendance-log",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1NzkzMjBhMC1hOGQ0LTRhOGItODliMi1jM2Y5NjhiOWU1OTUiLCJzZWNyZXRfa2V5IjoiY3ljMXd4ZmtxbmkiLCJpYXQiOjE3MTI5MjcwMTh9.Vsc_YZhpB7rvdSBpVa11HOao3EbkWD-B7P5m8Wzy0J0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"from_date\":\"2024-03-21\",\r\n    \"to_date\":\"2024-04-12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/attendance-log"
+			},
+			"response": []
+		},
+		{
+			"name": "/employee/attendance-log/:unique",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5Ijoiem9taW0wN3QzaSIsImlhdCI6MTcxMjkwODM5MX0.LhrdPxiEBmp-2PECjAYGuZ11LH03mDqqesjH4DsRJlA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "deviceId",
+							"value": "XSRBYU7-009878",
+							"type": "text"
+						},
+						{
+							"key": "coordinates",
+							"value": "23.7158284,86.8805466",
+							"type": "text"
+						},
+						{
+							"key": "ip",
+							"value": "49.37.45.124",
+							"type": "text"
+						},
+						{
+							"key": "os",
+							"value": "android-11",
+							"type": "text"
+						},
+						{
+							"key": "selfie",
+							"type": "file",
+							"src": "/C:/Users/91937/Downloads/header.jpg"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/employee/attendance-log/579320a0-a8d4-4a8b-89b2-c3f968b9e595"
+			},
+			"response": []
+		}
+	]
+}

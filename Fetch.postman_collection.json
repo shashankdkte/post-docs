@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "c6fd3442-41e3-44db-89a4-03cfeb579d2f",
+		"name": "Fetch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33061415"
+	},
+	"item": [
+		{
+			"name": "search-user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\":\"9370303693\", \r\n    \"mac_id\":\"124578\", \r\n    \"coordinates\":\"24.8111162,87.9541568\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:3009/authuser/search-user"
+			},
+			"response": []
+		},
+		{
+			"name": "fetch-bills",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRjOGY4NzdjLTU0OTUtNDI3NC1hM2E4LTQ0OWY4MGJmMzM2ZiIsInNlY3JldCI6ImY2OGRjNTU1LWRiZTktNGZjYS04ZjYyLWNkM2YxNDA2Mzc4NCIsIm1hY19pZCI6IjEyNDU3OCIsIm1vYmlsZSI6OTM3MDMwMzY5MywiaWF0IjoxNzA4NzcwNTgwfQ.NXKjOjfl2m7WI9GIPTfP_MqBbeVg0IpZpCWZpWrd6DM",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"op_id\": \"58\",\r\n    \"accountno\": \"61001129374\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:3009/utility/fetch-bills"
+			},
+			"response": []
+		},
+		{
+			"name": "payment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZiYzdlMjYxLTdjYTYtNDY3Yy1iMGU4LTgyMGU5MWE4YzFjYSIsInNlY3JldCI6IjE3NGUwNTUyLTdjMDUtNGUwOS05NGUzLTNmZjZhNjQ5ZDA4NSIsIm1hY19pZCI6IjEyNDU3OCIsIm1vYmlsZSI6OTM3MDMwMzY5MywiaWF0IjoxNzA4OTUxMzA5fQ.1kna9OTvqWJ1xO81rN1k3nToIqwoZ5Z7yrzxcNLou6s",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"op_id\": \"58\",\r\n    \"accountno\": \"9830299198\",\r\n    \"amt\": \"100\",\r\n    \"customer_name\": \"\",\r\n    \"client_ref_id\": \"12345688020\",\r\n    \"coordinates\": \"22.641251,88.431160\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:3009/utility/payment"
+			},
+			"response": []
+		},
+		{
+			"name": "key",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRjOGY4NzdjLTU0OTUtNDI3NC1hM2E4LTQ0OWY4MGJmMzM2ZiIsInNlY3JldCI6ImY2OGRjNTU1LWRiZTktNGZjYS04ZjYyLWNkM2YxNDA2Mzc4NCIsIm1hY19pZCI6IjEyNDU3OCIsIm1vYmlsZSI6OTM3MDMwMzY5MywiaWF0IjoxNzA4NzcwNTgwfQ.NXKjOjfl2m7WI9GIPTfP_MqBbeVg0IpZpCWZpWrd6DM",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"op_id\": \"58\",\r\n    \"accountno\": \"T09697010522064827\",\r\n    \"additional_params\": {\r\n    \"ad1\": \"9831838526\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/getkey/web"
+			},
+			"response": []
+		}
+	]
+}

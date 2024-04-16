@@ -1,0 +1,384 @@
+{
+	"info": {
+		"_postman_id": "758f5db0-154c-4ef5-a1a6-f5dc26b22285",
+		"name": "Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33061415"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/auth/login"
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9831693333\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"mac_id\":\"a2dc46cd-01c0-4fe2-b2e\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/login"
+			},
+			"response": []
+		},
+		{
+			"name": "/app-login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/app-login"
+			},
+			"response": []
+		},
+		{
+			"name": "/app-login Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/app-login"
+			},
+			"response": []
+		},
+		{
+			"name": "common/get-state",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/common/get-state"
+			},
+			"response": []
+		},
+		{
+			"name": "common/get-image/:type",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/common/get-state"
+			},
+			"response": []
+		},
+		{
+			"name": "common/fetch-secret-key",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/fetch-secret-key/web"
+			},
+			"response": []
+		},
+		{
+			"name": "common/get-district/:stateId",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/common/get-district/3"
+			},
+			"response": []
+		},
+		{
+			"name": "common/fetch-area/:pincode",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/common/get-district/3"
+			},
+			"response": []
+		},
+		{
+			"name": "common/getGeoLocation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"coordinates\":\"18.922064, 72.834641\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/common/getGeoLocation"
+			},
+			"response": []
+		},
+		{
+			"name": "login-with-otp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"otp\":\"500372\",\r\n    \"mobile\": \"9869460846\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/login-with-otp"
+			},
+			"response": []
+		},
+		{
+			"name": "login-with-password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\":\"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"coordinates\":\"127,5922879\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/login-with-password"
+			},
+			"response": []
+		},
+		{
+			"name": "forgot-password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\":\"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"coordinates\":\"127,5922879\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/forgot-password"
+			},
+			"response": []
+		},
+		{
+			"name": "reset-password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\":\"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"coordinates\":\"127,5922879\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/forgot-password"
+			},
+			"response": []
+		},
+		{
+			"name": "set-password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA5ZTk3Njk5LThkYjUtNGVjMS05MDQwLTNhYmJhYzc3ZDRiYyIsInNlY3JldCI6IjdlMmFjYjdiLTlhYTItNDcwNC1iODZkLTY4YmU0OWZhMmU3MTc5MzEiLCJ1c2VyX2NvZGUiOjMxNzM5MDAxLCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzExNjEwMjI2fQ.WTLwazwBU4jfXfuvUG1crjCsH-VqtK-wCDNj5a-84e0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"cpassword\":\"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"coordinates\":\"127,5922879\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/set-password"
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.eko.in:25002/ekoicici/v1/user/onboard",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://api.eko.in:25002/ekoicici/v1/user/onboard"
+			},
+			"response": []
+		}
+	]
+}

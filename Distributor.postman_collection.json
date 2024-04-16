@@ -1,0 +1,456 @@
+{
+	"info": {
+		"_postman_id": "090e3b2a-d664-469a-a8ce-8829bd2fccb2",
+		"name": "Distributor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33061415"
+	},
+	"item": [
+		{
+			"name": "Distributor Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9830299198\",\r\n    \"mac_id\": \"ASERF-O989OI-UUY6\",\r\n    \"os\": \"windows_10\",\r\n    \"coordinates\": \"22.5832278,88.3011249\",\r\n    \"ip\": \"49.37.43.130\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/distributor-login"
+			},
+			"response": []
+		},
+		{
+			"name": "Distributor Login Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9830299198\",\r\n    \"mac_id\": \"ASERF-O989OI-UUY6\",\r\n    \"os\": \"windows_10\",\r\n    \"coordinates\": \"22.5832278,88.3011249\",\r\n    \"ip\": \"49.37.43.130\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:5000/distributor-login"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/fetch-territory",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiM3Jjd3VpbDdhdiIsImlhdCI6MTcxMDQ5MjYxMH0.IOJDk049a_I66s_lw5oXxiN0Pla80Dv_IJ3AhBktUco",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9830299198\",\r\n    \"mac_id\": \"ASERF-O989OI-UUY6\",\r\n    \"os\": \"windows_10\",\r\n    \"coordinates\": \"22.5832278,88.3011249\",\r\n    \"ip\": \"49.37.43.130\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/erp/fetch-territory"
+			},
+			"response": []
+		},
+		{
+			"name": "t",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiM3Jjd3VpbDdhdiIsImlhdCI6MTcxMDQ5MjYxMH0.IOJDk049a_I66s_lw5oXxiN0Pla80Dv_IJ3AhBktUco",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9830299198\",\r\n    \"mac_id\": \"ASERF-O989OI-UUY6\",\r\n    \"os\": \"windows_10\",\r\n    \"coordinates\": \"22.5832278,88.3011249\",\r\n    \"ip\": \"49.37.43.130\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/erp/fetch-territory"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/add-fse",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiM3Jjd3VpbDdhdiIsImlhdCI6MTcxMDQ5MjYxMH0.IOJDk049a_I66s_lw5oXxiN0Pla80Dv_IJ3AhBktUco",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"aksay\",\r\n    \"mobile_number\": \"9830299196\",\r\n    \"email\": \"subhojit@egpaid.in\",\r\n    \"address\": {\r\n        \"Line\": \"A9 Vip Park\",\r\n        \"area_name\": \"Prafulla Kanan\",\r\n        \"division\": \"Rajarhat\",\r\n        \"district\": \"NORTH 24 P\",\r\n        \"state\": \"WEST BENGA\"\r\n    },\r\n    \"territory\": \"712411\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/erp/add-fse"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/add-fse Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiM3Jjd3VpbDdhdiIsImlhdCI6MTcxMDQ5MjYxMH0.IOJDk049a_I66s_lw5oXxiN0Pla80Dv_IJ3AhBktUco",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"aksay\",\r\n    \"mobile_number\": \"9830299196\",\r\n    \"email\": \"subhojit@egpaid.in\",\r\n    \"address\": {\r\n        \"Line\": \"A9 Vip Park\",\r\n        \"area_name\": \"Prafulla Kanan\",\r\n        \"division\": \"Rajarhat\",\r\n        \"district\": \"NORTH 24 P\",\r\n        \"state\": \"WEST BENGA\"\r\n    },\r\n    \"territory\": \"712411\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/erp/add-fse"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/stock-transfer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoic24wc2NpaWRvc2siLCJpYXQiOjE3MTExNzgzOTN9.1u8VHggdXa_q-bQsvuHhc54FO1W0L6asUUF3G3IWA0c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\": [\r\n        {\r\n            \"product_id\": \"2002\",\r\n            \"quantity\": \"1\"\r\n        },\r\n        {\r\n            \"product_id\": \"2002\",\r\n            \"quantity\": \"1\"\r\n        }\r\n    ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/erp/stock-transfer"
+			},
+			"response": []
+		},
+		{
+			"name": "erp/request-evalue",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiZWxsaXAzb3J1OSIsImlhdCI6MTcxMDU2NTgyOH0.dA9m0Sbs3DWhtWiRTVAm8L9l-syGru_RO7fF5zVZ0Fo"
+					},
+					{
+						"key": "modeOfPayment",
+						"value": "IMPS",
+						"type": "text"
+					},
+					{
+						"key": "amount",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "depositBankName",
+							"value": "PNB",
+							"type": "text"
+						},
+						{
+							"key": "depositDate",
+							"value": "2024-02-08",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "transactionReferenceNumber",
+							"value": "55657768",
+							"type": "text"
+						},
+						{
+							"key": "uploadReceipt",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/erp/request-evalue"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/e-value-history",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiZWxsaXAzb3J1OSIsImlhdCI6MTcxMDU2NTgyOH0.dA9m0Sbs3DWhtWiRTVAm8L9l-syGru_RO7fF5zVZ0Fo"
+					}
+				],
+				"url": "http://127.0.0.1:5000/erp/e-value-history"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/conform-order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoiZXBpcWg0d2tubSIsImlhdCI6MTcxMTA4NTkxNX0.1qXPVMRCbdw19IMS7K4QOcZGOx0kqXti6XYUyV5Lv8c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\": [\r\n        {\r\n            \"product_id\": \"2001\",\r\n            \"moq\": \"10\"\r\n        },\r\n        {\r\n            \"product_id\": \"2002\",\r\n            \"moq\": \"10\"\r\n        }\r\n    ],\r\n    \"pin\":\"654321\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/conform-order"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/erp/get-invoice",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoiZXBpcWg0d2tubSIsImlhdCI6MTcxMTA4NTkxNX0.1qXPVMRCbdw19IMS7K4QOcZGOx0kqXti6XYUyV5Lv8c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\": \"2024-03-22\",\r\n    \"page\": 1,\r\n    \"limit\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/get-invoice"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/search-merchant",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "9e90dcb4e63848ff"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJiZjUwOGU0Zi1iNjg1LTExZWMtOTczNS0wMDE2M2UwOTQ4ZDUiLCJzZWNyZXRfa2V5Ijoibm8xZ2JrY2Fnd2wiLCJpYXQiOjE3MTA1NzI5MzR9.dZ04rQ4kSw7OFnzNvlyaGkqlVL4wf8qzeGpH5FIRyfo"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile_number\": \"9831693333\",\r\n    \"product_id\": \"2001\",\r\n    \"adharNumber\":\"\",\r\n    \"agent_id\": \"188143423\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://127.0.0.1:5000/erp/search-merchant"
+			},
+			"response": []
+		},
+		{
+			"name": "/merchantoboard/search-merchant",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoid2p3MnNlM3RoOCIsImlhdCI6MTcxMTYyODE3OH0.PBeTbSRLnfIWYvZvZBljcPZFDH0BMR-rtgzQVcyb4eo"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile_number\": \"9869460846\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/search-merchant"
+			},
+			"response": []
+		},
+		{
+			"name": "/merchantoboard/merchant-onboarding",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJlNTBmZWUwZC05M2YxLTQ1NzktODIzNy0yZTdmOTdmZDFmMmYiLCJzZWNyZXRfa2V5Ijoid2p3MnNlM3RoOCIsImlhdCI6MTcxMTYyODE3OH0.PBeTbSRLnfIWYvZvZBljcPZFDH0BMR-rtgzQVcyb4eo"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile_number\": \"9869460846\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/merchant-onboarding"
+			},
+			"response": []
+		},
+		{
+			"name": "employee/fetch-distributor",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJjNzg3MzVkNC04OWE2LTQ2YmMtYTY3Mi0yM2U4YjNmOTU2NWIiLCJzZWNyZXRfa2V5IjoiZ3JxcmE1Z2ZmdyIsImlhdCI6MTcxMDkxNDY3OH0.KvoygIqMJgrYx29brDDhcrpmEn8EdZODhvTcQoFapEA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/fetch_distributor"
+			},
+			"response": []
+		}
+	]
+}

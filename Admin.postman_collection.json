@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "b234a492-c26d-412c-ad20-b9ed4d042c5c",
+		"name": "Admin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33061415"
+	},
+	"item": [
+		{
+			"name": "transfer",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/transfer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJiZjUwOGU0Zi1iNjg1LTExZWMtOTczNS0wMDE2M2UwOTQ4ZDUiLCJzZWNyZXRfa2V5Ijoid214YTVuYWZtYiIsImlhdCI6MTcxMDg1MDQxNH0.elKt9km4S323WBQtMMlyUxKfRU3XoExQdKYcVsxNGf8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\":\"c78735d4-89a6-46bc-a672-23e8b3f9565b\", \r\n    \"type\":\"DR\", \r\n    \"amount\":\"1\", \r\n    \"remark\":\"Gift Coupon Credit\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/transfer"
+			},
+			"response": []
+		},
+		{
+			"name": "/evalue",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJiZjUwOGU0Zi1iNjg1LTExZWMtOTczNS0wMDE2M2UwOTQ4ZDUiLCJzZWNyZXRfa2V5Ijoid214YTVuYWZtYiIsImlhdCI6MTcxMDg1MDQxNH0.elKt9km4S323WBQtMMlyUxKfRU3XoExQdKYcVsxNGf8"
+					}
+				],
+				"url": "http://127.0.0.1:5000/evalue"
+			},
+			"response": []
+		},
+		{
+			"name": "/view-details/30001",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJiZjUwOGU0Zi1iNjg1LTExZWMtOTczNS0wMDE2M2UwOTQ4ZDUiLCJzZWNyZXRfa2V5Ijoid214YTVuYWZtYiIsImlhdCI6MTcxMDg1MDQxNH0.elKt9km4S323WBQtMMlyUxKfRU3XoExQdKYcVsxNGf8"
+					}
+				],
+				"url": "http://127.0.0.1:5000/view-details/30001"
+			},
+			"response": []
+		},
+		{
+			"name": "/evalue-update",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJiZjUwOGU0Zi1iNjg1LTExZWMtOTczNS0wMDE2M2UwOTQ4ZDUiLCJzZWNyZXRfa2V5Ijoib24ybzRleGc4MWciLCJpYXQiOjE3MTExNzQwODB9.GWChC0L6webi46aaWjDErCTRX73Vnssoyoj7ywVykyg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"status\":\"1\", \r\n    \"order_id\":\"1711140639751\", \r\n    \"remark\":\"NULL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/evalue-update"
+			},
+			"response": []
+		}
+	]
+}

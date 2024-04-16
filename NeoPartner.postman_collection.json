@@ -1,0 +1,1680 @@
+{
+	"info": {
+		"_postman_id": "d62841b5-5b93-4b55-b73e-a6424e17c56c",
+		"name": "NeoPartner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33061415"
+	},
+	"item": [
+		{
+			"name": "Merchants",
+			"item": [
+				{
+					"name": "/merchant/get-bank",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjI4NWY4ZmZmLTRlY2UtNDAyZS05OGY1LTI2NDQ1ZGU4OWQ1Yjc5ODciLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjY0MDMzOH0.h5Qnu4Qxeej7LOM6SgZS7lnI2rOT7EoVZovYeGe7dcA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/get-bank"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/get-evalue",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjI4NWY4ZmZmLTRlY2UtNDAyZS05OGY1LTI2NDQ1ZGU4OWQ1Yjc5ODciLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjY0MDMzOH0.h5Qnu4Qxeej7LOM6SgZS7lnI2rOT7EoVZovYeGe7dcA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/get-evalue"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/get-bank-details",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjI4NWY4ZmZmLTRlY2UtNDAyZS05OGY1LTI2NDQ1ZGU4OWQ1Yjc5ODciLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjY0MDMzOH0.h5Qnu4Qxeej7LOM6SgZS7lnI2rOT7EoVZovYeGe7dcA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/get-bank-details"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/evalue-request",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjI4NWY4ZmZmLTRlY2UtNDAyZS05OGY1LTI2NDQ1ZGU4OWQ1Yjc5ODciLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjY0MDMzOH0.h5Qnu4Qxeej7LOM6SgZS7lnI2rOT7EoVZovYeGe7dcA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"amount\": \"17\",\r\n    \"mode_of_payment\": \"IMPS\",\r\n    \"bank_ref_num\": \"11223340556\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/evalue-request"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/get-evalues",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjAxNjUwMGY5LWQyNGYtNDA2NS1hMWU0LWU1YWRmN2Y5MTE2ZTczMDgiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjQ2MjA5fQ.xVtXdSYjszegERpIXHLs1ZzsDuRxQwnv12eGyghwyDE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/get-evalues"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/get-evalue",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjAxNjUwMGY5LWQyNGYtNDA2NS1hMWU0LWU1YWRmN2Y5MTE2ZTczMDgiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjQ2MjA5fQ.xVtXdSYjszegERpIXHLs1ZzsDuRxQwnv12eGyghwyDE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/get-evalue"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/fetch-va",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjAxNjUwMGY5LWQyNGYtNDA2NS1hMWU0LWU1YWRmN2Y5MTE2ZTczMDgiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjQ2MjA5fQ.xVtXdSYjszegERpIXHLs1ZzsDuRxQwnv12eGyghwyDE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/fetch-va"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/create-va",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjAxNjUwMGY5LWQyNGYtNDA2NS1hMWU0LWU1YWRmN2Y5MTE2ZTczMDgiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjQ2MjA5fQ.xVtXdSYjszegERpIXHLs1ZzsDuRxQwnv12eGyghwyDE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/create-va"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/vpa-validation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjAxNjUwMGY5LWQyNGYtNDA2NS1hMWU0LWU1YWRmN2Y5MTE2ZTczMDgiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjQ2MjA5fQ.xVtXdSYjszegERpIXHLs1ZzsDuRxQwnv12eGyghwyDE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"upi_id\": \"ezy-one@ybl\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/vpa-validation"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/collection-request",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjhkNDMxMzUzLTQ5YTgtNGNiYy05M2E3LTEzODZmNWUxZTUwOTg0NzQiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUyODAzfQ.tKMKQWoBhbQ4do2E2vCfkcm8kwctPZ_cQt8JKkf7Rt8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"payer_upi\":\"ezyone@ybl\", \r\n    \"amount\":\"1.00\",\r\n    \"message\":\"test\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/collection-request"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/view-packages",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjhkNDMxMzUzLTQ5YTgtNGNiYy05M2E3LTEzODZmNWUxZTUwOTg0NzQiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUyODAzfQ.tKMKQWoBhbQ4do2E2vCfkcm8kwctPZ_cQt8JKkf7Rt8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"payer_upi\":\"ezyone@ybl\", \r\n    \"amount\":\"1.00\",\r\n    \"message\":\"test\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/view-packages"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/subscription",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjhkNDMxMzUzLTQ5YTgtNGNiYy05M2E3LTEzODZmNWUxZTUwOTg0NzQiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUyODAzfQ.tKMKQWoBhbQ4do2E2vCfkcm8kwctPZ_cQt8JKkf7Rt8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"package_id\":\"2003\", \r\n    \"mac_id\":\"4713da7c93f149ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/subscription"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/generate-upi-link",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImEyNTQwN2RjLWZmNGEtNGRiOS1hMGJlLTNjNjY1MTJjYWUyMDczODMiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyOTkxNjcxfQ.fGnDSdxRJ_K5-wuhvmM3QvA4fDowrhBIEApaMaw2uI8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"amount\": 10,\r\n    \"message\": \"nill hello\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/generate-upi-link"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/my-subscription",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjhkNDMxMzUzLTQ5YTgtNGNiYy05M2E3LTEzODZmNWUxZTUwOTg0NzQiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUyODAzfQ.tKMKQWoBhbQ4do2E2vCfkcm8kwctPZ_cQt8JKkf7Rt8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"package_id\":\"2003\", \r\n    \"mac_id\":\"4713da7c93f149ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/my-subscription"
+					},
+					"response": []
+				},
+				{
+					"name": "/merchant/get-commercial/utility/Recharge",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjhkNDMxMzUzLTQ5YTgtNGNiYy05M2E3LTEzODZmNWUxZTUwOTg0NzQiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUyODAzfQ.tKMKQWoBhbQ4do2E2vCfkcm8kwctPZ_cQt8JKkf7Rt8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"package_id\":\"2003\", \r\n    \"mac_id\":\"4713da7c93f149ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/get-commercial/ecollection/Imps"
+					},
+					"response": []
+				},
+				{
+					"name": "merchant/upi-collection",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjhkNDMxMzUzLTQ5YTgtNGNiYy05M2E3LTEzODZmNWUxZTUwOTg0NzQiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUyODAzfQ.tKMKQWoBhbQ4do2E2vCfkcm8kwctPZ_cQt8JKkf7Rt8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"package_id\":\"2003\", \r\n    \"mac_id\":\"4713da7c93f149ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/upi-collection"
+					},
+					"response": []
+				},
+				{
+					"name": "merchant/ecollection",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjhkNDMxMzUzLTQ5YTgtNGNiYy05M2E3LTEzODZmNWUxZTUwOTg0NzQiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUyODAzfQ.tKMKQWoBhbQ4do2E2vCfkcm8kwctPZ_cQt8JKkf7Rt8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"package_id\":\"2003\", \r\n    \"mac_id\":\"4713da7c93f149ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/ecollection"
+					},
+					"response": []
+				},
+				{
+					"name": "merchant/dmt-recharge",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjhkNDMxMzUzLTQ5YTgtNGNiYy05M2E3LTEzODZmNWUxZTUwOTg0NzQiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUyODAzfQ.tKMKQWoBhbQ4do2E2vCfkcm8kwctPZ_cQt8JKkf7Rt8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"from_date\":\"2023-06-30\",\r\n    \"to_date\":\"2024-04-10\",\r\n    \"page\":\"1\",\r\n    \"limit\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/merchant/dmt-history"
+					},
+					"response": []
+				},
+				{
+					"name": "merchant/dmt-recharge",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjhkNDMxMzUzLTQ5YTgtNGNiYy05M2E3LTEzODZmNWUxZTUwOTg0NzQiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUyODAzfQ.tKMKQWoBhbQ4do2E2vCfkcm8kwctPZ_cQt8JKkf7Rt8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"from_date\":\"2023-06-30\",\r\n    \"to_date\":\"2024-04-10\",\r\n    \"page\":\"1\",\r\n    \"limit\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5001/merchant/dmt-history?page=1&limit=2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5001",
+							"path": [
+								"merchant",
+								"dmt-history"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Notification",
+			"item": [
+				{
+					"name": "/push/fcm-token",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjIzZDc5ZWE5LWY5NTItNDUxNy1iMWE5LTQ4NTllYzZiM2UxYzY2NzMiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUxNTAwfQ.GW5Xy-wZr-XcwFgv6jeg4VsUUuZWl8gT943lAjxuDJ8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"fcm_token\":\"123456788\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/push/fcm-token"
+					},
+					"response": []
+				},
+				{
+					"name": "/push/get-notification",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjIzZDc5ZWE5LWY5NTItNDUxNy1iMWE5LTQ4NTllYzZiM2UxYzY2NzMiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUxNTAwfQ.GW5Xy-wZr-XcwFgv6jeg4VsUUuZWl8gT943lAjxuDJ8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"fcm_token\":\"123456788\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/push/get-notification"
+					},
+					"response": []
+				},
+				{
+					"name": "view-notification/:msg_id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6IjIzZDc5ZWE5LWY5NTItNDUxNy1iMWE5LTQ4NTllYzZiM2UxYzY2NzMiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjUxNTAwfQ.GW5Xy-wZr-XcwFgv6jeg4VsUUuZWl8gT943lAjxuDJ8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"fcm_token\":\"123456788\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/push/view-notification/1234567"
+					},
+					"response": []
+				},
+				{
+					"name": "/push//update-notification-status",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImMwOGE1NDRlLWZmODctNGQwMi1hMGFlLWRiYTk1MDQ5YmJiMjgyNjUiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjY5ODkxfQ.lMD78vKxAIf17y0XE5DJ5jX0sUYTaHUgyzhrZaT08iY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"msg_id\":\"1234567\",\r\n    \"status\":\"Delete\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/push/update-notification-status"
+					},
+					"response": []
+				},
+				{
+					"name": "/push/update-notification-response",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImMwOGE1NDRlLWZmODctNGQwMi1hMGFlLWRiYTk1MDQ5YmJiMjgyNjUiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjY5ODkxfQ.lMD78vKxAIf17y0XE5DJ5jX0sUYTaHUgyzhrZaT08iY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"msg_id\":\"1234567\",\r\n    \"response\":\"Like\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/push/update-notification-response"
+					},
+					"response": []
+				},
+				{
+					"name": "/push/delete-notification-status",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImMwOGE1NDRlLWZmODctNGQwMi1hMGFlLWRiYTk1MDQ5YmJiMjgyNjUiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyNjY5ODkxfQ.lMD78vKxAIf17y0XE5DJ5jX0sUYTaHUgyzhrZaT08iY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"msg_id\":\"1234567\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/push/delete-notification-status"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Callback",
+			"item": [
+				{
+					"name": "/transaction",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "callbackkey",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT@#",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjI4NWY4ZmZmLTRlY2UtNDAyZS05OGY1LTI2NDQ1ZGU4OWQ1Yjc5ODciLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjY0MDMzOH0.h5Qnu4Qxeej7LOM6SgZS7lnI2rOT7EoVZovYeGe7dcA",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"UPI_COLLECTION\",\r\n    \"attempt\": 1,\r\n    \"errorKey\": \"\",\r\n    \"npciTxnId\": \"AXL5d58862371b64356aeecf9d16f4\",\r\n    \"timestamp\": \"2023-12-19T10:28:22.256396\",\r\n    \"referenceId\": \"20240454322\",\r\n    \"transferType\": \"UPI\",\r\n    \"callbackTxnId\": \"7199386DC63A4174B7F79978A4FB0725\",\r\n    \"decentroTxnId\":\"BF31F896DC974B369B440AD010954E73\",\r\n    \"transactionAmount\": 5,\r\n    \"transactionStatus\": \"SUCCESS\",\r\n    \"transactionMessage\": \"Add Money to wallet\",\r\n    \"bankReferenceNumber\": \"3353009166\",\r\n    \"originalCallbackTxnId\": \"7199386DC63A4174B7F79978A4FB0725\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/transaction"
+					},
+					"response": []
+				},
+				{
+					"name": "/transaction Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "callbackkey",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT@#",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjI4NWY4ZmZmLTRlY2UtNDAyZS05OGY1LTI2NDQ1ZGU4OWQ1Yjc5ODciLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjY0MDMzOH0.h5Qnu4Qxeej7LOM6SgZS7lnI2rOT7EoVZovYeGe7dcA",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"timestamp\": \"2024-04-15 10:30:00\",\r\n  \"callbackTxnId\": \"123456789\",\r\n  \"originalCallbackTxnId\": \"987654321\",\r\n  \"accountNumber\": \"1234567890\",\r\n  \"balance\": 1000,\r\n  \"transactionMessage\": \"Payment for services\",\r\n  \"type\": \"debit\",\r\n  \"transferType\": \"internal\",\r\n  \"transactionAmount\": 500,\r\n  \"decentroTxnId\": \"567890123\",\r\n  \"payeeName\": \"John Doe\",\r\n  \"payeeAccountNumber\": \"962301120607027884\",\r\n  \"payeeAccountIfsc\": \"ABCD0123456\",\r\n  \"payerVpa\": \"john.doe@upi\",\r\n  \"bankReferenceNumber\": \"123ABC456DEF\",\r\n  \"referenceId\":\"20240420240454327\",\r\n  \"transactionType\": \"NEFT\",\r\n  \"payerName\": \"Jane Doe\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/virtualaccount"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Utility",
+			"item": [
+				{
+					"name": "utility/get-category",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							}
+						],
+						"url": "http://127.0.0.1:5001/utility/get-category"
+					},
+					"response": []
+				},
+				{
+					"name": "utility/get-category/:subtype",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							}
+						],
+						"url": "http://127.0.0.1:5001/utility/get-category/others"
+					},
+					"response": []
+				},
+				{
+					"name": "utility/get-category/:subtype Copy",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							}
+						],
+						"url": "http://127.0.0.1:5001/utility/get-category/others"
+					},
+					"response": []
+				},
+				{
+					"name": "utility/get-location",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							}
+						],
+						"url": "http://127.0.0.1:5001/utility/get-location"
+					},
+					"response": []
+				},
+				{
+					"name": "utility/get-operator",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:5001/utility/get-operator?cate_id=14",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5001",
+							"path": [
+								"utility",
+								"get-operator"
+							],
+							"query": [
+								{
+									"key": "cate_id",
+									"value": "14"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "utility/get-operator-params?op_id=43",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:5001/utility/get-operator-params?op_id=43",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5001",
+							"path": [
+								"utility",
+								"get-operator-params"
+							],
+							"query": [
+								{
+									"key": "op_id",
+									"value": "43"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "etch-connection-details/:mob",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImFjOWMzOGYxLTI4MzgtNGEyMC1iMGEzLTVkZDcwZDA3N2YwNDMyNzEiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyOTAxNjE2fQ.wmmP6Ii9POZyivDkluLULTXE7fGmBAKxVe3yiLfjq7A",
+								"type": "text"
+							}
+						],
+						"url": "http://127.0.0.1:5001/utility/fetch-connection-details/9830299198"
+					},
+					"response": []
+				},
+				{
+					"name": "/fetch-recharge-plans/:operator/:circle?",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImFjOWMzOGYxLTI4MzgtNGEyMC1iMGEzLTVkZDcwZDA3N2YwNDMyNzEiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyOTAxNjE2fQ.wmmP6Ii9POZyivDkluLULTXE7fGmBAKxVe3yiLfjq7A",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:5001/utility/fetch-recharge-plans/228/12?cn=9830299198",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5001",
+							"path": [
+								"utility",
+								"fetch-recharge-plans",
+								"228",
+								"12"
+							],
+							"query": [
+								{
+									"key": "cn",
+									"value": "9830299198"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/fetch-bills",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImFjOWMzOGYxLTI4MzgtNGEyMC1iMGEzLTVkZDcwZDA3N2YwNDMyNzEiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyOTAxNjE2fQ.wmmP6Ii9POZyivDkluLULTXE7fGmBAKxVe3yiLfjq7A",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"op_id\":\"265\",\r\n    \"accountno\":\"61001129374\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/utility/fetch-bills"
+					},
+					"response": []
+				},
+				{
+					"name": "payments",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImFjOWMzOGYxLTI4MzgtNGEyMC1iMGEzLTVkZDcwZDA3N2YwNDMyNzEiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyOTAxNjE2fQ.wmmP6Ii9POZyivDkluLULTXE7fGmBAKxVe3yiLfjq7A",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"op_id\": \"228\",\r\n    \"accountno\": \"9830299198\",\r\n    \"amt\": \"1\",\r\n    \"customer_name\": \"\",\r\n    \"client_ref_id\": \"12345688015\",\r\n    \"coordinates\": \"22.641251,88.431160\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/utility/payment"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Search Remitter",
+			"item": [
+				{
+					"name": "/dmt/search-remitter",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImQ3MGI0YTFmLWYxNjYtNDY0My04Nzk5LWNmYjU2NTQxYzYxNjk3OTUiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyODEzODc2fQ.11knKiQJziSnPwypscWvQ7Oxed74GHyn-QY1qMNn5ek"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile_no\":\"9869460846\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/dmt/search-remitter"
+					},
+					"response": []
+				},
+				{
+					"name": "/dmt/create-remitter",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImQ3MGI0YTFmLWYxNjYtNDY0My04Nzk5LWNmYjU2NTQxYzYxNjk3OTUiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyODEzODc2fQ.11knKiQJziSnPwypscWvQ7Oxed74GHyn-QY1qMNn5ek"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile_no\":\"9869460846\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/dmt/create-remitter"
+					},
+					"response": []
+				},
+				{
+					"name": "/dmt/create-remitter Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImQ3MGI0YTFmLWYxNjYtNDY0My04Nzk5LWNmYjU2NTQxYzYxNjk3OTUiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyODEzODc2fQ.11knKiQJziSnPwypscWvQ7Oxed74GHyn-QY1qMNn5ek"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mobile_no\":\"9869460846\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/dmt/verify-remitter"
+					},
+					"response": []
+				},
+				{
+					"name": "/dmt/money-transfer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "key",
+								"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT"
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImQ3MGI0YTFmLWYxNjYtNDY0My04Nzk5LWNmYjU2NTQxYzYxNjk3OTUiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyODEzODc2fQ.11knKiQJziSnPwypscWvQ7Oxed74GHyn-QY1qMNn5ek"
+							},
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhNDQ3NzZjLWE3MWQtNDQ3MC1iMzg0LTAzNGQ5MmQwZDkyZSIsInNlY3JldCI6ImQ3MGI0YTFmLWYxNjYtNDY0My04Nzk5LWNmYjU2NTQxYzYxNjk3OTUiLCJ1c2VyX2NvZGUiOjMxNzM5MDA4LCJtb2JpbGUiOiI5ODY5NDYwODQ2IiwiZGV2aWNlSWQiOiJhMmRjNDZjZC0wMWMwLTRmZTItYjJlIiwiaWF0IjoxNzEyODEzODc2fQ.11knKiQJziSnPwypscWvQ7Oxed74GHyn-QY1qMNn5ek"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tran_id\":\"02011\",\r\n    \"recipient_id\":\"113090650\", \r\n    \"amount\":\"100\", \r\n    \"coordinates\":\"22.580990,88.297440\", \r\n    \"mac_id\":\"c2f38928442bb1d\",\r\n    \"tpin\":\"65431\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5001/dmt/money-transfer"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "neo_db/app-navigation/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjY1NWU5ZDcwLTk1OWMtNDM4Ni1hM2RjLWY1ZTM5YmZmNzA5ODk4ODkiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU2MDU4OX0.D7n82bzo3Ll41AkmmIka4BTExefVLstIpX89r-L4zZk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/app_navigation"
+			},
+			"response": []
+		},
+		{
+			"name": "neo_db/fetch-app-navigation",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjY1NWU5ZDcwLTk1OWMtNDM4Ni1hM2RjLWY1ZTM5YmZmNzA5ODk4ODkiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU2MDU4OX0.D7n82bzo3Ll41AkmmIka4BTExefVLstIpX89r-L4zZk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/fetch_navigation"
+			},
+			"response": []
+		},
+		{
+			"name": "neo_db/get-profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjY1NWU5ZDcwLTk1OWMtNDM4Ni1hM2RjLWY1ZTM5YmZmNzA5ODk4ODkiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU2MDU4OX0.D7n82bzo3Ll41AkmmIka4BTExefVLstIpX89r-L4zZk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/fetch-app-navigation"
+			},
+			"response": []
+		},
+		{
+			"name": "neo_db/get-profile-details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjY1NWU5ZDcwLTk1OWMtNDM4Ni1hM2RjLWY1ZTM5YmZmNzA5ODk4ODkiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU2MDU4OX0.D7n82bzo3Ll41AkmmIka4BTExefVLstIpX89r-L4zZk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/get-profile-details"
+			},
+			"response": []
+		},
+		{
+			"name": "neo_db/get-tpin-status",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6ImQwNGJjMjFkLTlhMTAtNDJlMy1hMTBiLWY0NDA4Y2JlM2UzNDEyMjIiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU3Njk0Mn0.lDuRiMRvTIJrzCdB4O8pZkNbRThGWgpwIUSVPnvcWhw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/get-tpin-status"
+			},
+			"response": []
+		},
+		{
+			"name": "neo_db/users/get-balance",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjI4NWY4ZmZmLTRlY2UtNDAyZS05OGY1LTI2NDQ1ZGU4OWQ1Yjc5ODciLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjY0MDMzOH0.h5Qnu4Qxeej7LOM6SgZS7lnI2rOT7EoVZovYeGe7dcA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/get-balance"
+			},
+			"response": []
+		},
+		{
+			"name": "neo_db/set-pin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjY1NWU5ZDcwLTk1OWMtNDM4Ni1hM2RjLWY1ZTM5YmZmNzA5ODk4ODkiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU2MDU4OX0.D7n82bzo3Ll41AkmmIka4BTExefVLstIpX89r-L4zZk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tpin\":\"123456\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/setpin"
+			},
+			"response": []
+		},
+		{
+			"name": "users/fetch-user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6ImQwNGJjMjFkLTlhMTAtNDJlMy1hMTBiLWY0NDA4Y2JlM2UzNDEyMjIiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU3Njk0Mn0.lDuRiMRvTIJrzCdB4O8pZkNbRThGWgpwIUSVPnvcWhw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile_number\":\"9370303693\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/Fetch-Users"
+			},
+			"response": []
+		},
+		{
+			"name": "users/Intergroup-transfer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6ImQwNGJjMjFkLTlhMTAtNDJlMy1hMTBiLWY0NDA4Y2JlM2UzNDEyMjIiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU3Njk0Mn0.lDuRiMRvTIJrzCdB4O8pZkNbRThGWgpwIUSVPnvcWhw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"order_id\":\"\",\r\n     \"key\":\"\",\r\n      \"amount\":\"\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/Intergroup-transfer"
+			},
+			"response": []
+		},
+		{
+			"name": "neo_db/change-tpin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjY1NWU5ZDcwLTk1OWMtNDM4Ni1hM2RjLWY1ZTM5YmZmNzA5ODk4ODkiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU2MDU4OX0.D7n82bzo3Ll41AkmmIka4BTExefVLstIpX89r-L4zZk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"tpin\":\"123456\",\r\n    \"ctpin\":\"123456\",\r\n    \"oldPin\":\"123456\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/change-tpin"
+			},
+			"response": []
+		},
+		{
+			"name": "neo_db/update-kyc",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjY1NWU5ZDcwLTk1OWMtNDM4Ni1hM2RjLWY1ZTM5YmZmNzA5ODk4ODkiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU2MDU4OX0.D7n82bzo3Ll41AkmmIka4BTExefVLstIpX89r-L4zZk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Subhojit Sadhukhan\", \r\n    \"email_id\":\"subhojit@tapnpe.com\", \r\n    \"father_or_spousename\":\"Jagannath\", \r\n    \"date_of_birth\":\"1988-07-08\", \r\n    \"gender\":\"Male\", \r\n    \"married\":\"Married\", \r\n    \"occupation\":\"salaried\", \r\n    \"anual_income\":\"400000\", \r\n    \"pan_no\":\"ASFGY0987U\", \r\n    \"aadhar_no\":\"883939000770\", \r\n    \"address\":{\"area\": \"Kolkata\",\"city\": \"Kolkata\",\"line\": \"India\",  \"state\": \"West Bengal\",\"pincode\": \"700101\",\"district\": \"North 24 Parganas\"}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/update_kyc"
+			},
+			"response": []
+		},
+		{
+			"name": "neo_db/get-wallet-summary",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjY1NWU5ZDcwLTk1OWMtNDM4Ni1hM2RjLWY1ZTM5YmZmNzA5ODk4ODkiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU2MDU4OX0.D7n82bzo3Ll41AkmmIka4BTExefVLstIpX89r-L4zZk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"from_date\":\"2023-07-12\", \r\n    \"to_date\":\"2023-07-12\", \r\n    \"page\":\"1\", \r\n    \"limit\":\"20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/get-wallet-summary"
+			},
+			"response": []
+		},
+		{
+			"name": "neo_db/users/update-about-me",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjY1NWU5ZDcwLTk1OWMtNDM4Ni1hM2RjLWY1ZTM5YmZmNzA5ODk4ODkiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU2MDU4OX0.D7n82bzo3Ll41AkmmIka4BTExefVLstIpX89r-L4zZk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"aboutus\":\"Your\"\r\n\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5001/users/update-about-me"
+			},
+			"response": []
+		},
+		{
+			"name": "merchant/users/app-navigation/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMjgyMjdkLTAzODQtNDdkNy05YTg1LTUzNGMxODNiNGY4YSIsInNlY3JldCI6IjUwNTZiYjJhLTY4MGQtNDdkZi1iZDQzLWEyMTgwZDc5NTQyMjc3NjIiLCJ1c2VyX2NvZGUiOjM2MDA1MTk3NCwibW9iaWxlIjoiOTg2OTQ2MDg0NiIsImRldmljZUlkIjoiYTJkYzQ2Y2QtMDFjMC00ZmUyLWIyZSIsImlhdCI6MTcxMjU2MTA0OH0.6OiK0fPb3fAGMH7NMuAGWnVR0i7_lU6JhmZoy0mJCp0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile\": \"9869460846\",\r\n    \"password\": \"e10adc3949ba59abbe56e057f20f883e\",\r\n    \"deviceId\":\"a2dc46cd-01c0-4fe2-b2e\",\r\n    \"coordinates\":\"127,11\",\r\n    \"os\":\"11\",\r\n    \"ip\":\"11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/users/app-navigation"
+			},
+			"response": []
+		}
+	]
+}

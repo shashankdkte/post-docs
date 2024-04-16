@@ -1,0 +1,321 @@
+{
+	"info": {
+		"_postman_id": "0e3a844a-7543-4f41-833a-d9c591333622",
+		"name": "Insertdsr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33061415"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/employee/insertdsr",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer ",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"owner_name\":\"owner_name\",\r\n    \"shop_name\":\"shop_name\",\r\n    \"mobile\":\"1212121112\",\r\n    \"address\":\"adress\",\r\n    \"remark\":\"Good\",\r\n    \"coordinates\":\"1212,1212\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/insertdsr"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/employee/insertdsr Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer ",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"owner_name\":\"owner_name\",\r\n    \"shop_name\":\"shop_name\",\r\n    \"mobile\":\"1212121112\",\r\n    \"address\":\"adress\",\r\n    \"remark\":\"Good\",\r\n    \"coordinates\":\"1212,1212\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/insertdsr"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/employee/insertdsr Copy 2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer ",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userType\":\"web\",\r\n    \"mobileNo\":\"9988998899\",\r\n    \"emailId\":\"shy@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/common/generateOt"
+			},
+			"response": []
+		},
+		{
+			"name": "dsrReport",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI2ZTRjNDJhNy04YTkyLTRiMDItYjc5Yy1hOWExMzI1ODY0YTIiLCJzZWNyZXRfa2V5IjoicDRrNmc4NmE4bCIsImlhdCI6MTcxMjAzNTIwOX0.EmxDEUsjetNkYdQstm986u3mPFq-hB2mueKrKnHbGGg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"page\":1,\r\n    \"limit\":10,\r\n    \"fromDate\": \"2024-03-19\",\r\n    \"toDate\":\"2024-04-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/dsrreport"
+			},
+			"response": []
+		},
+		{
+			"name": "dsrReport/:id",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer ",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"page\":1,\r\n    \"limit\":1,\r\n    \"fromDate\": \"2024-02-19\",\r\n    \"toDate\":\"2024-02-20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/dsrreport"
+			},
+			"response": []
+		},
+		{
+			"name": "insertdsr",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIyZjMwN2I2NS1lNTUwLTRhNTUtODdlMi01ZTM5OGNiMjVjYmEiLCJzZWNyZXRfa2V5IjoiaGFlZnNtdHlsdyIsImlhdCI6MTcxMTAxNjkzNX0.ukj_ZEBQ4xugvgqG-ZM6JYAiScnYu5XCtDzEk2RzX8s",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"owner_name\":\"owner_name\",\r\n    \"shop_name\":\"shop_name\",\r\n    \"mobile\":\"9898989898\",\r\n    \"address\":\"adress\",\r\n    \"remark\":\"Good\",\r\n    \"coordinates\":\"1212,1212\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/insertdata"
+			},
+			"response": []
+		},
+		{
+			"name": "LOgin",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer ",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " { \"mobile\": \"9869454545\",\r\n    \"deviceId\": \"76567\",\r\n    \"coordinates\": \"23.7158284,86.8805466\",\r\n    \"ip\": \"49.37.45.124\",\r\n    \"os\": \"android-11\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee-login"
+			},
+			"response": []
+		},
+		{
+			"name": "LOgin Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "X8QLN83WaShVTTxguWkD7sQZ5yd4tT",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiIxMTUyZDgwMC01YmQ1LTQ4NDMtOTllNi1hNWY1YmE0ODM2OTkiLCJzZWNyZXRfa2V5IjoibW5xNzNrZjI0bCIsImlhdCI6MTcwODUyMzUxN30.AkCaD6zwn656NMES0BxK97mB5YnCkH30GrFOg36AH2o",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_type\":\"merchant\",\r\n    \"mobile_number\":\"9898989898\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/employee/search-merchant"
+			},
+			"response": []
+		},
+		{
+			"name": "BAHA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bhashsms.com/api/sendmsg.php?user=SUBHOJITT&pass=123456F&sender=EGPAID&phone=9831693333&text=Hi&priority=ndnd&stype=normal",
+					"protocol": "https",
+					"host": [
+						"bhashsms",
+						"com"
+					],
+					"path": [
+						"api",
+						"sendmsg.php"
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "SUBHOJITT"
+						},
+						{
+							"key": "pass",
+							"value": "123456F"
+						},
+						{
+							"key": "sender",
+							"value": "EGPAID"
+						},
+						{
+							"key": "phone",
+							"value": "9831693333"
+						},
+						{
+							"key": "text",
+							"value": "Hi"
+						},
+						{
+							"key": "priority",
+							"value": "ndnd"
+						},
+						{
+							"key": "stype",
+							"value": "normal"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

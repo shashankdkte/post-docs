@@ -1,0 +1,267 @@
+{
+	"info": {
+		"_postman_id": "b998b86f-4b0c-4cb2-85e8-e767b52cd4a7",
+		"name": "Erp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33061415"
+	},
+	"item": [
+		{
+			"name": "erp/generated-order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoiZXBpcWg0d2tubSIsImlhdCI6MTcxMTA4NTkxNX0.1qXPVMRCbdw19IMS7K4QOcZGOx0kqXti6XYUyV5Lv8c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\": [\r\n        {\r\n            \"product_id\": \"2001\",\r\n            \"moq\": \"10\"\r\n        },\r\n        {\r\n            \"product_id\": \"2002\",\r\n            \"moq\": \"10\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/generated-order"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/erp/get-invoice",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoieHViMnFneWRmeSIsImlhdCI6MTcxMTEyMTE4M30.lrtgMRTb30NUhIgp855WJcEgQpfpGmpzVTgRIhC5oFU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\": \"2024-03-22\",\r\n    \"page\": 1,\r\n    \"limit\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/get-invoice"
+			},
+			"response": []
+		},
+		{
+			"name": "/erp/search-merchant",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJhY2UwZTk3MS0xMGMyLTQyMWEtYWY4OS03NjYwNzAzNGY2MTEiLCJzZWNyZXRfa2V5IjoiamhncmFwdjhmZWkiLCJpYXQiOjE3MTEzNDcyNzN9.WuqI54h9ACpgCLzfQBfFC0E3nWO5_M525N5Ik0ga8XI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mobile_number\":\"9869460846\",\r\n    \"aadhar_number\":\"270964374862\",\r\n    \"package_id\":\"2001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/search-merchant"
+			},
+			"response": []
+		},
+		{
+			"name": "erp/csp-otp-verfication",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJhY2UwZTk3MS0xMGMyLTQyMWEtYWY4OS03NjYwNzAzNGY2MTEiLCJzZWNyZXRfa2V5IjoiamhncmFwdjhmZWkiLCJpYXQiOjE3MTEzNDcyNzN9.WuqI54h9ACpgCLzfQBfFC0E3nWO5_M525N5Ik0ga8XI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\":\"efba0029-2981-4b4d-b324-c1b4434c8151\",\r\n    \"otp\":\"483386\",\r\n    \"aadhar_number\":\"270964374862\",\r\n    \"access_key\":\"3c7f6595-4724-42b4-927d-075124c73b0a\",\r\n    \"otpType\":\"addhar\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/csp-otp-verification"
+			},
+			"response": []
+		},
+		{
+			"name": "erp/merchant-onboard",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJhY2UwZTk3MS0xMGMyLTQyMWEtYWY4OS03NjYwNzAzNGY2MTEiLCJzZWNyZXRfa2V5IjoiamhncmFwdjhmZWkiLCJpYXQiOjE3MTEzNDcyNzN9.WuqI54h9ACpgCLzfQBfFC0E3nWO5_M525N5Ik0ga8XI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unique_id\": \"efba0029-2981-4b4d-b324-c1b4434c8151\",\r\n        \"name\": \"Shashank Tularam Dhakate\",\r\n        \"dob\": \"1998-12-27\",\r\n        \"gender\": \"M\",\r\n        \"aadhar_number\": \"270964374862\",\r\n        \"residential_address\": \"M-404,phase 1,mohan Suburbia, Kohojkhuntavali, Thane, Ambarnath, Ambernath, Ambernath, Maharashtra, India, 421501\",\r\n    \"email\":\"shashank@gmail.com\",\r\n    \"entity_type\":\"Market\",\r\n    \"trade_name\":\"Match\",\r\n    \"legal_name\":\"Shashank\",\r\n    \"gst_number\":\"123456\",\r\n    \"date_of_registration\":\"2024-12-08\",\r\n    \"registration_no\":\"123456\",\r\n    \"offices_address\":\"1111\",\r\n    \"pan_number\":\"FYQPD2931C\",\r\n    \"shop_name\":\"ABC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/merchant-onboard"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/erp/get-invoice-details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "ca3cdeea1b55fad0",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiI1MWE3ZjZjYy0zMTU4LTRmZjItOGQzYS1jN2ZjYzIxZTkyODgiLCJzZWNyZXRfa2V5IjoiZXBpcWg0d2tubSIsImlhdCI6MTcxMTA4NTkxNX0.1qXPVMRCbdw19IMS7K4QOcZGOx0kqXti6XYUyV5Lv8c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\": \"2024-03-22\",\r\n    \"page\": 1,\r\n    \"limit\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/erp/get-invoice-details/29191711118255416"
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.eko.in:25002/ekoicici/v1/user/onboard",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "developer_key",
+						"value": "0d13fefbdd3d507c3a1485e6694d4197"
+					},
+					{
+						"key": "secret-key",
+						"value": "mMg4oz1WSE0zTb3ehosawIbAjWpAuaOPwWlG16ynJ0k="
+					},
+					{
+						"key": "secret-key-timestamp",
+						"value": "1667978242491"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "initiator_id",
+							"value": "9830299198",
+							"type": "text"
+						},
+						{
+							"key": "pan_number",
+							"value": "FTZPP8726D",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "9830299198",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "parveen",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "kumar",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "a@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "residence_address",
+							"value": "{\"line\": \"Eko India\",\"city\":\"Gurgaon\",\"state\":\"Haryana\",\"pincode\":\"122002\",\"district\":\"Banswara\",\"area\":\"Mongol\"}",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "1985-07-08",
+							"type": "text"
+						},
+						{
+							"key": "shop_name",
+							"value": "EgPaid",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://api.eko.in:25002/ekoicici/v1/user/onboard"
+			},
+			"response": []
+		}
+	]
+}
